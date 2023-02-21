@@ -1,0 +1,283 @@
+Lumi, for the guest network, limit the traffic of cloudburst protocol to 100 mbps
+unblock facebook
+unblock traffic
+blockage facebook
+Block F2movies traffic from Cyberspace to Labs
+Block F2movies traffic from Internet to student Labs
+Attention deficit hyperactivity disorder DPI middlebox into all traffic from Internet to the Labs
+All traffic from the Internet to the Labs have to go to DPI host and then goes to the Research lab
+add dpi to labs network
+Hey Lumi, add DPI to the laboratory meshing
+hey Lumi, append dpi to labs
+limit waiter bandwidth to 5 gbps between 4pm and 7pm
+unblock facebook traffic
+allow all dealings
+mental block all student dealings in the network
+stop all student dealings
+city block all traffic
+Limit educatee in the dorm to 10 GB per week
+Make sure all traffic from the Cyberspace to the science laboratory be inspected by the DPI middlebox
+Between cyberspace and host limit traffic to 5 Gbps start xvi: 00 finish 19: 00
+Between cyberspace and server specify traffic to 5 Gbps interval 4pm to 7pm
+limit the bandwidth to 5 Gb for rack server from four postmortem examination until 7 pm
+limit traffic to 5 Gbps between internet and servers beaver state xvi: 00 to 19: 00
+put quota to 10 GB per week at labs
+set quota to 10 gi per week at server
+Seth quota to 10 GB per week dormitory
+Set quota to 10 gigabyte per hebdomad at invitee
+Set quota to 10 GB per hebdomad at dorms
+set quota to tenner GB per week at local area network
+block all dealings at Dorms placement
+Point of accumulation traffic to 10 sarin per week at Dorms
+for terminus dorms set quota download 10 gb / wk
+At terminus Dormitory set quota to 10 GB per week
+Students shall download no more than than 1000000 MB per week
+hey lumi, please add a DPI to see to it students from the research laboratory are non get at suspicious applications
+Limit rack servers to fivesome gbps during 5pm to 7pm
+Boundary servers to 5 gbps during 5pm to 7pm
+Set quint gbps limit for servers during 4pm to 7pm
+please lumi, mental block f2movies traffic from net to students labs
+hey lumi, delight allow traffic alone from professors
+please lumi, define residence hall quota to decade gb per week
+Students shall download no more than meg megabytes per workweek
+please limit bandwidth to 5 Gigabits per second for the host rack everyday from quaternion PM to 7PM
+limit the bandwidth in server racks to fivesome gbps between 4pm and 7pm
+I need the torrent dealings from guest substance abuser to be no more more than 100 mbps
+limit network usage of all scholarly person in the dorms to no more than 10 gb per seven clarence shepard day jr.
+prevent all f2movies dealings from reaching the students in the labs
+Minimal brain dysfunction monitor for the university from 4am to 10pm
+set a utmost of 5 gbps to the servers from 4pm to 7pm
+students should download no more than 10 great britain of data point in a week
+adjust torrent dealings from guests to hundred mbps
+From net to Labs sum up DPI
+From cyberspace to Labs block F2movies
+limit the bandwidth pace of the host rack to 5 gbps from 4pm to 7pm
+stop dealings of the server racks
+pulley all traffic for the host racks
+limit point to 100 Mbps the bandwidth torrent traffic toilet squander
+forward, limit the traffic of torrent communications protocol to hundred mbps
+unblock facebook
+unblock dealings
+block facebook
+Block F2movies traffic from Internet to Labs
+Pulley F2movies dealings from Internet to student Laboratory
+Mbd DPI middlebox into all traffic from Internet to the Labs
+All dealings from the Internet to the Lab has to go to DPI server and so goes to the Research lab
+add dpi to labs network
+Hey Lumi, add DPI to the research laboratory meshing
+hey Lumi, total dpi to labs
+limit servers bandwidth to phoebe gbps between 4pm and 7pm
+unblock facebook traffic
+allow all traffic
+pulley block all student dealings in the network
+block all scholarly person dealings
+stop all traffic
+Limit student in the hall to 10 GB per week
+Make trusted all dealings from the Internet to the research laboratory be inspected by the DPI middlebox
+Between cyberspace and server limit traffic to 5 Gbps commencement sixteen: 00 finish 19: 00
+Between net and servers limit dealings to 5 Gbps musical interval 4pm to 7pm
+limit point the bandwidth to quint Gb for rack servers from 4 promethium until vii pm
+limit traffic to 5 Gbps between net and servers beaver state sixteen: 00 to 19: 00
+set quota to 10 gi per week at labs
+set quota to 10 GB per calendar week at servers
+Solidifying quota to ten GB per week dorms
+Set quota to 10 GB per week at invitee
+Solidification quota to 10 great britain per workweek at dorms
+set quota to 10 GB per week at LAN
+block all traffic at Hall location
+Limit traffic to 10 gigabyte per hebdomad at Dorm
+for endpoint dorms set quota download ten gb / wk
+At endpoint Hall set quota to 10 GB per calendar week
+Student shall download no more than 1000000 MB per week
+hey lumi, delight add a DPI to ensure students from the labs exist non accessing fishy application
+Limit single foot servers to 5 gbps during 5pm to 7pm
+Limit server to 5 gbps during 5pm to 7pm
+Set 5 gbps bound for servers during 4pm to 7pm
+please lumi, block f2movies traffic from net to students labs
+hey lumi, please allow traffic simply from professor
+please lumi, define dormitory quota to 10 gb per calendar week
+Students shall download no more than than meg megabytes per week
+please limit point bandwidth to 5 Gigabits per second for the server racks everyday from 4 necropsy to 7PM
+terminal point the bandwidth in server racks to fin gbps between 4pm and 7pm
+Ace require the inundation traffic from guest users to be no more than 100 mbps
+limit electronic network usage of all students in the residence hall to no more than 10 gb per seven days
+prevent all f2movies dealings from get to the students in the research laboratory
+Add monitor for the university from 4am to 10pm
+correct a maximum of 5 gbps to the servers from 4pm to 7pm
+students should download no more than than 10 GB of data in a week
+localise torrent dealings from guests to century mbps
+From cyberspace to Labs tally DPI
+From internet to Labs block F2movies
+limit the bandwidth charge per unit of the server excruciate to 5 gbps from 4pm to 7pm
+block traffic of the host racks
+occlusion all dealings for the server racks
+limit to 100 Mbps the bandwidth torrent traffic crapper consume
+onward dealings for labs through the dpi
+assign a download quota for students of 10 gb per hebdomad
+limit inundation dealings to 100 mbps
+auction block F2movies traffic for students in the science lab
+set a 10 GB per week download quota for students in student residence
+ensure that all traffic from the Internet to the lab be cautiously inspected by the Trench Packet Inspection middlebox
+limit torrent dealings for guest to 100 Mbps
+scrutinise all internet dealings
+Students can download upward to 10 GB per hebdomad of datum.
+Terminal point bandwidth usage to l mbps for professors.
+Please make traffic derive from the Cyberspace notch through a firewall.
+Hey Lumi please stoppage traffic for all students
+add a firewall
+From gateway to network sum up middlebox firewall
+From my house to PUCRS add middlebox dpi
+From hall to internet add nat
+From university to internet add firewall
+Please add traffic maker between the internet and the dorms
+Please, city block netflix dealings on PUC
+Block streaming dealings on UFRGS
+Attention deficit disorder inspection for the university from 10pm to 12pm
+Pulley block traffic from netflix
+Add reminder for the university from 04: 00 to 22: 00
+Minimal brain dysfunction traffic monitor lizard from PUC to UFRGS
+add up shaping for gateway everyday from 18: 00 to midnight
+Tote up a firewall and address version for att and verizon
+Define a quota of 10 GB per calendar week for all students
+Dorms traffic to internet must sink through a firewall
+We provide a quota to all student of 1 g / wk of use.
+Add review for the university from 22: 00 to 12: 00
+Remove firewall from the university to my house
+add security department from entry to backend
+From gateway to my electronic network absent nat
+Remove load balance from gateway to database
+Add firewall from gateway to my house from 06: 00 to xxi: 00
+Remove nat for gateway everyday from 18: 00 to midnight
+We allow a data plan quota for all faculty of 10 GB per day
+We provide a quota to all students of 1 GB per week of custom
+Please Lumi, mental block pour traffic for pupil and set a x Mbps bandwidth limit
+Please countenance societal media for the HR section
+Let educatee admission Facebook
+Do no lashkar e tayyiba scholarly person access Netflix from the laboratories to the cyberspace
+Blocking all traffic from HR to the backend server
+Bookman may utilize up to 10 GB of data weekly
+Stoppage streaming and gaming traffic in schoolroom
+Adhd intrusion detection and computer address translation for servers network
+Dismiss charge per unit circumscribe for faculty members
+Dismiss all middleboxes from UFRGS to PUCRS
+Include parental control for PlayStation
+Brawl not let Staff members access any societal culture medium
+Solidifying users bandwidth to 500 kbps when the 100 Gigabyte per month quota be gain
+Prioritise Netflix dealings from 18: 00 to midnight
+Balance traffic amount from gateway to covering servers
+Block torrent traffic for all bookman
+Block bittorrent for prof
+Staff is earmark to access file transfer protocol
+Students cannot run data file servers
+Add paternal ascendancy from my house to internet
+Students should non apply more than than five gigabyte of bandwidth per week
+City block all incoming hypertext transfer protocol dealings, allow only HTTPS for all hosts
+Permit gaming for PS4 from 13: 00 to 18: 00
+Email dealings is allow for Staff members
+Duncan grant SFTP admittance to all students from 08: 00 to xvii: 00
+Dismiss all rate limits and quota for all hosts
+Prioritize VoIP traffic on the coming together elbow room 23 from 13: 00 to 14: 00
+Forward completely the outside traffic to demilitarized zone
+Limit in 10 Mbps the download pace of dorms from internet
+Lumi, block SIP traffic from 19: 00 to 08: 00 for dorms
+Grant SSH access to prof
+Setup a packet filter for guests traffic
+Lumi, please set up to ace g per day the download limit for guests
+Lumi, prohibit access to interior campus estimator from the internet
+Increase the bandwidth use of goods and services limit for prof to 100 Mbps
+Allow RTSP traffic in the local area network
+Lumi, delight instal an email scanner for the gateway
+Lumi, block VoIP traffic from 00: 00 to 06: 00
+Set to i Gbps bandwidth limit for the traffic to demilitarized zone
+Lumi, localize to 10 kbps the upload rate for module
+Please, leave Skype for all users
+Deny SSH admittance to students
+Lumi, setup a TCP particle accelerator between LAN and video recording server
+Lumi, allow approach to internal campus computers from the net through SSH
+Subdue the download rate for faculty members to twenty Mbps
+Allow access from computers to DMZ
+Lumi monitors the meshwork trafficoperation) traffic for labs done the dpi
+put a download quota for students of x gb per week
+limit torrent dealings to 100 mbps
+block F2movies traffic for educatee in the labs
+set a x GB per calendar week download quota for students in dorms
+ensure that all dealings from the Internet to the labs is carefully inspected by the Trench Packet Review middlebox
+limit point torrent dealings for guests to 100 Mbps
+inspect all cyberspace dealings
+Student can download up to 10 g per week of data.
+Limit bandwidth usage to l mbps for prof.
+Please make dealings coming from the Cyberspace pass through a firewall.
+Hey Lumi please block traffic for all student
+impart a firewall
+From gateway to meshwork sum middlebox firewall
+From my sign to PUCRS summate middlebox dpi
+From hall to internet add nat
+From university to internet add together firewall
+Please add dealings maker between the internet and the hall
+Please, block netflix dealings on PUC
+Block rain buckets traffic on UFRGS
+Mbd review for the university from 10pm to 12pm
+Block dealings from netflix
+Attention deficit hyperactivity disorder monitor for the university from 04: 00 to twenty two: 00
+Add dealings monitor from PUC to UFRGS
+add forge for gateway everyday from 18: 00 to midnight
+Add a firewall and savoir faire rendering for att and verizon
+Define a quota of 10 great britain per week for all educatee
+Hall traffic to internet mustiness pass through a firewall
+We provide a quota to all students of 1 gi / wk of exercise.
+Attention deficit hyperactivity disorder inspection for the university from twenty two: 00 to 12: 00
+Remove firewall from the university to my business firm
+add security from ingress to backend
+From gateway to my network remove nat
+Remove warhead balancing from gateway to database
+Minimal brain dysfunction firewall from gateway to my house from 06: 00 to 21: 00
+Remove nat for gateway everyday from 18: 00 to midnight
+We offer a data plan quota for all staff of 10 g per day
+We provide a quota to all students of i gilbert per workweek of usage
+Please Lumi, block pelt traffic for scholarly person and set a decade Mbps bandwidth limit
+Please allow social medium for the HR section
+Countenance students admittance Facebook
+Do no lashkar e toiba students admittance Netflix from the laboratories to the net
+Block all dealings from HR to the backend servers
+Students may use up to 10 gigabyte of data weekly
+Block streaming and gage dealings in classrooms
+Mbd intrusion detection and speech translation for servers electronic network
+Dismiss pace limiting for mental faculty members
+Dismiss all middleboxes from UFRGS to PUCRS
+Include parental control for PlayStation
+Do not let Staff members admission any societal medium
+Set users bandwidth to d kbps when the 100 Gb per month quota be reached
+Prioritise Netflix traffic from 18: 00 to midnight
+Balance traffic coming from gateway to application server
+Block pelter traffic for all student
+Blockage bittorrent for professor
+Staff is allowed to access file transfer protocol
+Students cannot unravel file servers
+Mbd parental controller from my house to internet
+Students should not habituate more than than quint gigabytes of bandwidth per week
+Blocking all incoming hypertext transfer protocol dealings, allow only http for all hosts
+License gaming for PS4 from 13: 00 to 18: 00
+Email dealings be allowed for Staff phallus
+Grant SFTP access to all scholar from 08: 00 to xvii: 00
+Dismiss all charge per unit limits and quota for all master of ceremonies
+Prioritize VoIP traffic on the coming together way 23 from thirteen: 00 to xiv: 00
+Forrad entirely the external traffic to demilitarized zone
+Limitation in 10 Mbps the download rate of student residence from internet
+Lumi, stoppage SIP dealings from 19: 00 to 08: 00 for dorms
+Grant SSH access to professors
+Setup a packet boat filter for guests traffic
+Lumi, please set to 1 GB per mean solar day the download demarcation line for guests
+Lumi, prohibit accession to internal campus computers from the internet
+Increase the bandwidth consumption bound for professors to 100 Mbps
+Allow RTSP dealings in the LAN
+Lumi, delight install an email electronic scanner for the gateway
+Lumi, city block VoIP traffic from 00: 00 to 06: 00
+Stage set to 1 Gbps bandwidth limit for the traffic to DMZ
+Lumi, set to decade kbps the upload rate for faculty
+Please, provide Skype for all users
+Deny SSH entree to students
+Lumi, setup a TCP accelerator between LAN and video host
+Lumi, allow memory access to interior campus computers from the internet through with SSH
+Reduce the download charge per unit for staff members to 20 Mbps
+Allow access from computers to DMZ
+Lumi monitors the mesh traffic
