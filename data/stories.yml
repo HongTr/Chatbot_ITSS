@@ -1,30 +1,64 @@
 version: "3.1"
 
-stories:
+stories: #training data to teach chatbot what it shoud do next
 
-- story: happy path
+- story: welcome 
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
+    - intent: greet
+    - action: utter_greet
+    - intent: say_name
+    - action: action_greet
+    - action: utter_show_things_can_do
 
-- story: sad path 1
+###########################################
+- story: build confirm
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
+    - intent: build
+    - active_loop: command_form
+    - slot_was_set:
+      - required_slot: entity
+    - slot_was_set:
+      - required_slot: value
+    - slot_was_set:
+      - requested_slot: null 
+    - active_loop: null 
+    - intent: confirm
+    - action: utter_thank
+    
+# - story: build with feedback
+#   steps:
+#     - intent: build
+#     - action: action_build
+#     - intent: reject
+#     - action: utter_ask_for_feedback
+#     - active_loop: feedback_form
+#     - slot_was_set:
+#         - requested_slot: entity
+#     - slot_was_set:
+#         - requested_slot: value
+#     - slot_was_set:
+#         - requested_slot: null
+#     - active_loop: null
+#     - action: action_feedback
+#     - intent: confirm
+#     - action: action_feedback_confirm
+# - story: build and feedback rejected
+#   steps:
+#     - intent: build
+#     - action: action_build
+#     - intent: reject
+#     - action: utter_ask_for_feedback
+#     - active_loop: feedback_form
+#     - slot_was_set:
+#         - requested_slot: entity
+#     - slot_was_set:
+#         - requested_slot: value
+#     - slot_was_set:
+#         - requested_slot: null
+#     - active_loop: null
+#     - action: action_feedback
+#     - intent: reject
+#     - action: utter_start_over
 
-- story: sad path 2
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+
+

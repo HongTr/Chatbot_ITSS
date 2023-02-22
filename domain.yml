@@ -1,34 +1,109 @@
 version: "3.1"
 
-intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-  
+#everything assistant knows
 
-responses:
+###########################################################################
+                        #categories of things users say
+intents: 
+- greet
+- say_name
+- goodbye
+- thanks
+- inquire_time
+  ####
+- build
+- confirm
+- reject
+- cancel
+- build-feedback
+###########################################################################
+                        #information inside of a user message
+entities: 
+  - name
+  # command analysis
+  - entity
+  - value
+  - operation
+  - target
+  - origin
+  - destination
+  - protocol
+  - service
+  - traffic
+  - group
+  - middlebox
+  - start
+  - end
+  - qos_metric
+  - qos_unit
+  - qos_value
+  - qos_constraint
+  - location
+  - hour
+  - Hey_lumi
+###########################################################################
+                        #what assistant says
+responses: 
   utter_greet:
-  - text: "Hey! How are you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
+    - text: "Hello, I am an ITSS bot. Who are you?"
+    - text: "Hello there, I am an ITSS bot. Could you tell me who you are?"
+    - text: "Hi, I am an ITSS bot. Can you inform me about your name?"
+    - text: "Hey, I am an ITSS bot. May I ask who I am speaking to?"
+  utter_show_things_can_do:
+  - text: "I can analyze command from you."
 
   utter_goodbye:
-  - text: "Bye"
-
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+    - text: "Bye, see you again"
+      image: "http://cdn.shopify.com/s/files/1/0272/7087/3174/products/Bye_Bye_879x_480ec067-6baf-4574-90e1-482013acb53c_600x.jpg?v=1650522039"
+  
+  utter_analysis_begin:
+    - text: "Welcome to command analysis, please insert your command"
+    - text: "What is your command?"
+  utter_lumi:
+    - text: "Invalid command, please start with 'Hey Lumi'!"
+    - text: "Command must have 'Hey Lumi', please insert again"
+  utter_thank:
+    - text: "Thanks for your command!"
+###########################################################################
+                        #Like define variables get from user message
+slots:
+  name:
+    type: text
+    influence_conversation: true
+    mappings:   #define how slot will be filled in
+      - type: from_entity
+        entity: name
+  entity:
+    type: categorical
+    influence_conversation: true
+    values: 
+      - group
+      - location
+      - middlebox
+      - service
+      - traffic
+      - protocol
+    mappings: 
+    - type: custom
+  value:
+    type: text
+    influence_conversation: true
+    mappings: 
+    - type: custom
+###########################################################################
+forms: 
+  command_form:
+    required_slots:
+      - entity
+      - value
+###########################################################################
+                        #Custom actions
+actions:
+- action_greet
+- action_tell_time
+#option 2
+- action_build
+###########################################################################
 
 session_config:
   session_expiration_time: 60
