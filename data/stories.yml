@@ -11,54 +11,54 @@ stories: #training data to teach chatbot what it shoud do next
     - action: utter_show_things_can_do
 
 ###########################################
-- story: build confirm
+# - story: build confirm
+#   steps:
+#     - intent: build
+#     - active_loop: command_feedback_form
+#     - slot_was_set:
+#       - requested_slot: entity
+#     - slot_was_set:
+#       - requested_slot: value
+#     - slot_was_set:
+#       - requested_slot: null  
+#     - active_loop: null 
+#     - intent: confirm
+#     - action: utter_thank
+    
+- story: build with feedback
   steps:
     - intent: build
-    - active_loop: command_form
+    - action: action_build
+    - intent: reject
+    - action: utter_ask_for_feedback
+    - active_loop: command_feedback_form
     - slot_was_set:
-      - required_slot: entity
+        - requested_slot: entity
     - slot_was_set:
-      - required_slot: value
+        - requested_slot: value
     - slot_was_set:
-      - requested_slot: null 
-    - active_loop: null 
+        - requested_slot: null
+    - active_loop: null
+    - action: action_feedback
     - intent: confirm
-    - action: utter_thank
-    
-# - story: build with feedback
-#   steps:
-#     - intent: build
-#     - action: action_build
-#     - intent: reject
-#     - action: utter_ask_for_feedback
-#     - active_loop: feedback_form
-#     - slot_was_set:
-#         - requested_slot: entity
-#     - slot_was_set:
-#         - requested_slot: value
-#     - slot_was_set:
-#         - requested_slot: null
-#     - active_loop: null
-#     - action: action_feedback
-#     - intent: confirm
-#     - action: action_feedback_confirm
-# - story: build and feedback rejected
-#   steps:
-#     - intent: build
-#     - action: action_build
-#     - intent: reject
-#     - action: utter_ask_for_feedback
-#     - active_loop: feedback_form
-#     - slot_was_set:
-#         - requested_slot: entity
-#     - slot_was_set:
-#         - requested_slot: value
-#     - slot_was_set:
-#         - requested_slot: null
-#     - active_loop: null
-#     - action: action_feedback
-#     - intent: reject
-#     - action: utter_start_over
+    - action: action_feedback_confirm
+- story: build and feedback rejected
+  steps:
+    - intent: build
+    - action: action_build
+    - intent: reject
+    - action: utter_ask_for_feedback
+    - active_loop: command_feedback_form
+    - slot_was_set:
+        - requested_slot: entity
+    - slot_was_set:
+        - requested_slot: value
+    - slot_was_set:
+        - requested_slot: null
+    - active_loop: null
+    - action: action_feedback
+    - intent: reject
+    - action: utter_start_over
 
 
 

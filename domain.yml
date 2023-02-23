@@ -64,6 +64,10 @@ responses:
     - text: "Command must have 'Hey Lumi', please insert again"
   utter_thank:
     - text: "Thanks for your command!"
+  utter_ask_for_feedback:
+    - text: "Am i wrong?"
+  utter_start_over:
+    - text: "Oke we will start again"
 ###########################################################################
                         #Like define variables get from user message
 slots:
@@ -92,7 +96,7 @@ slots:
     - type: custom
 ###########################################################################
 forms: 
-  command_form:
+  command_feedback_form:
     required_slots:
       - entity
       - value
@@ -103,8 +107,9 @@ actions:
 - action_tell_time
 #option 2
 - action_build
+- action_feedback
+- action_feedback_confirm
 ###########################################################################
-
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
