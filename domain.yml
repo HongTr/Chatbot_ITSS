@@ -65,9 +65,13 @@ responses:
   utter_thank:
     - text: "Thanks for your command!"
   utter_ask_for_feedback:
-    - text: "Am i wrong?"
+    - text: "Hmmmm :( What did i miss?"
   utter_start_over:
-    - text: "Oke we will start again"
+    - text: "Ok, we will restart. Please insert your command again."
+  utter_ask_for_entity:
+    - text: "Which entity is wrong?"
+  utter_ask_for_value:
+    - text: "So the true entity is what?"
 ###########################################################################
                         #Like define variables get from user message
 slots:
@@ -106,9 +110,11 @@ actions:
 - action_greet
 - action_tell_time
 #option 2
-- action_build
-- action_feedback
-- action_feedback_confirm
+- action_build   #Receive message from user, respond entity message
+- action_feedback #Receive updated entity, respond to user the updated message
+# - action_feedback_confirm
+- action_restart
+- validate_command_feedback_form
 ###########################################################################
 session_config:
   session_expiration_time: 60
