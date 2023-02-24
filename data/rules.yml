@@ -6,3 +6,24 @@ version: "3.1"
   steps:
   - intent: inquire_time
   - action: action_tell_time
+#if start over, then receive command again
+- rule: start over again
+  steps:
+  - action: utter_start_over
+  - action: utter_analysis_begin
+#activate feedback form when user sends reject intent
+- rule: Activate feedback form
+  steps:
+  - intent: reject
+  - action: command_feedback_form
+  - active_loop: command_feedback_form
+
+- rule: Submit feedback form
+  condition:
+  - active_loop: command_feedback_form
+  steps:
+  - action: command_feedback_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_thank

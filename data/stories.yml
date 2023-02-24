@@ -11,20 +11,14 @@ stories: #training data to teach chatbot what it shoud do next
     - action: utter_show_things_can_do
 
 ###########################################
-# - story: build confirm
-#   steps:
-#     - intent: build
-#     - active_loop: command_feedback_form
-#     - slot_was_set:
-#       - requested_slot: entity
-#     - slot_was_set:
-#       - requested_slot: value
-#     - slot_was_set:
-#       - requested_slot: null  
-#     - active_loop: null 
-#     - intent: confirm
-#     - action: utter_thank
-    
+- story: build confirm
+  steps:
+    - intent: build
+    - action: action_build
+    - intent: confirm
+    - action: utter_thank
+    - action: action_restart
+
 - story: build with feedback
   steps:
     - intent: build
@@ -41,7 +35,9 @@ stories: #training data to teach chatbot what it shoud do next
     - active_loop: null
     - action: action_feedback
     - intent: confirm
-    - action: action_feedback_confirm
+    - action: utter_thank
+    - action: action_restart
+
 - story: build and feedback rejected
   steps:
     - intent: build
@@ -59,6 +55,7 @@ stories: #training data to teach chatbot what it shoud do next
     - action: action_feedback
     - intent: reject
     - action: utter_start_over
+    - action: action_restart
 
 
 
