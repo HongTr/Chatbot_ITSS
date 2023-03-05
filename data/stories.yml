@@ -43,21 +43,29 @@ stories: #training data to teach chatbot what it shoud do next
   - action: utter_thank
   - action: action_restart
 
-# - story: build wrong and reject
-#   steps:
-#     - intent: build
-#     - action: action_build
-#     - intent: reject
-#     - action: utter_feedback
-#     - intent: inform
-#     - action: action_errorExample
-#     - action: utter_ask_entity
-#     # - intent: inform
-#     - action: action_trueEntity
-#     - action: action_correctDictionary
-#     - intent: reject
-#     - action: utter_start_over
-#     - action: action_restart
+- story: build wrong and confirm
+  steps:
+  - intent: build
+  - action: action_build
+  - intent: reject
+  - action: utter_feedback
+  - or:
+    - intent: inform
+    - intent: nlu_fallback
+  - action: action_errorExample
+  - action: utter_ask_entity
+  - or:
+    - intent: location
+    - intent: group
+    - intent: service
+    - intent: middlebox
+    - intent: traffic
+    - intent: protocol
+  - action: action_trueEntity
+  - action: action_correctDictionary
+  - intent: confirm
+  - action: utter_start_over
+  - action: action_restart
 
 
 # - story: build with feedback
