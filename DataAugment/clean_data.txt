@@ -1,283 +1,283 @@
-Lumi, for the guest network, limit the traffic of torrent protocol to 100 mbps 
-unblock facebook 
-unblock traffic 
-block facebook 
-Block F2movies traffic from Internet to Labs 
-Block F2movies traffic from Internet to student Labs 
-Add DPI middlebox into all traffic from Internet to the Labs 
-All traffic from the Internet to the Labs has to go to DPI server and then goes to the Labs 
-add dpi to labs network 
-Hey Lumi, add DPI to the labs network 
-hey Lumi, add dpi to labs 
-limit servers bandwidth to 5 gbps between 4pm and 7pm 
-unblock facebook traffic 
-allow all traffic 
-block all student traffic in the network 
-block all student traffic 
-block all traffic 
-Limit students in the dorm to 10 GB per week 
-Make sure all traffic from the Internet to the labs is inspected by the DPI middlebox 
-Between internet and servers limit traffic to 5 Gbps start 16:00 finish 19:00 
-Between internet and servers limit traffic to 5 Gbps interval 4pm to 7pm 
-limit the bandwidth to 5 Gb for rack servers from 4 pm until 7 pm 
-limit traffic to 5 Gbps between internet and servers or 16:00 to 19:00 
-set quota to 10 GB per week at labs 
-set quota to 10 GB per week at servers 
-Set quota to 10 GB per week dorms 
-Set quota to 10 GB per week at guest 
-Set quota to 10 GB per week at dorms 
-set quota to 10 GB per week at LAN 
-block all traffic at Dorms location 
-Limit traffic to 10 GB per week at Dorms 
-for endpoint dorms set quota download 10 gb/wk 
-At endpoint Dorms set quota to 10 GB per week 
-Students shall download no more than 1000000 MB per week 
-hey lumi, please add a DPI to ensure students from the labs are not accessing suspicious applications 
-Limit rack servers to 5 gbps during 5pm to 7pm 
-Limit servers to 5 gbps during 5pm to 7pm 
-Set 5 gbps limit for servers during 4pm to 7pm 
-please lumi, block f2movies traffic from internet to students labs 
-hey lumi, please allow traffic only from professors 
-please lumi, define dorms quota to 10 gb per week 
-Students shall download no more than 1000000 megabytes per week 
-please limit bandwidth to 5 Gigabits per second for the server racks everyday from 4 PM to 7PM 
-limit the bandwidth in server racks to 5 gbps between 4pm and 7pm 
-I want the torrent traffic from guest users to be no more than 100 mbps 
-limit network usage of all students in the dorms to no more than 10 gb per seven days 
-prevent all f2movies traffic from reaching the students in the labs 
-Add monitor for the university from 4am to 10pm 
-set a maximum of 5 gbps to the servers from 4pm to 7pm 
-students should download no more than 10 GB of data in a week 
-set torrent traffic from guests to 100 mbps 
-From internet to Labs add DPI 
-From internet to Labs block F2movies 
-limit the bandwidth rate of the server racks to 5 gbps from 4pm to 7pm 
-block traffic of the server racks 
-block all traffic for the server racks 
-limit to 100 Mbps the bandwidth torrent traffic can consume 
-forward, limit the traffic of torrent protocol to 100 mbps 
-unblock facebook 
-unblock traffic 
-block facebook 
-Block F2movies traffic from Internet to Labs 
-Block F2movies traffic from Internet to student Labs 
-Add DPI middlebox into all traffic from Internet to the Labs 
-All traffic from the Internet to the Labs has to go to DPI server and then goes to the Labs 
-add dpi to labs network 
-Hey Lumi, add DPI to the labs network 
-hey Lumi, add dpi to labs 
-limit servers bandwidth to 5 gbps between 4pm and 7pm 
-unblock facebook traffic 
-allow all traffic 
-block all student traffic in the network 
-block all student traffic 
-block all traffic 
-Limit students in the dorm to 10 GB per week 
-Make sure all traffic from the Internet to the labs is inspected by the DPI middlebox 
-Between internet and servers limit traffic to 5 Gbps start 16:00 finish 19:00 
-Between internet and servers limit traffic to 5 Gbps interval 4pm to 7pm 
-limit the bandwidth to 5 Gb for rack servers from 4 pm until 7 pm 
-limit traffic to 5 Gbps between internet and servers or 16:00 to 19:00 
-set quota to 10 GB per week at labs 
-set quota to 10 GB per week at servers 
-Set quota to 10 GB per week dorms 
-Set quota to 10 GB per week at guest 
-Set quota to 10 GB per week at dorms 
-set quota to 10 GB per week at LAN 
-block all traffic at Dorms location 
-Limit traffic to 10 GB per week at Dorms 
-for endpoint dorms set quota download 10 gb/wk 
-At endpoint Dorms set quota to 10 GB per week 
-Students shall download no more than 1000000 MB per week 
-hey lumi, please add a DPI to ensure students from the labs are not accessing suspicious applications 
-Limit rack servers to 5 gbps during 5pm to 7pm 
-Limit servers to 5 gbps during 5pm to 7pm 
-Set 5 gbps limit for servers during 4pm to 7pm 
-please lumi, block f2movies traffic from internet to students labs 
-hey lumi, please allow traffic only from professors 
-please lumi, define dorms quota to 10 gb per week 
-Students shall download no more than 1000000 megabytes per week 
-please limit bandwidth to 5 Gigabits per second for the server racks everyday from 4 PM to 7PM 
-limit the bandwidth in server racks to 5 gbps between 4pm and 7pm 
-I want the torrent traffic from guest users to be no more than 100 mbps 
-limit network usage of all students in the dorms to no more than 10 gb per seven days 
-prevent all f2movies traffic from reaching the students in the labs 
-Add monitor for the university from 4am to 10pm 
-set a maximum of 5 gbps to the servers from 4pm to 7pm 
-students should download no more than 10 GB of data in a week 
-set torrent traffic from guests to 100 mbps 
-From internet to Labs add DPI 
-From internet to Labs block F2movies 
-limit the bandwidth rate of the server racks to 5 gbps from 4pm to 7pm 
-block traffic of the server racks 
-block all traffic for the server racks 
-limit to 100 Mbps the bandwidth torrent traffic can consume 
-forward traffic for labs through the dpi 
-put a download quota for students of 10 gb per week 
-limit torrent traffic to 100 mbps 
-block F2movies traffic for students in the labs 
-set a 10 GB per week download quota for students in dorms 
-ensure that all traffic from the Internet to the labs is carefully inspected by the Deep Packet Inspection middlebox 
-limit torrent traffic for guests to 100 Mbps 
-inspect all internet traffic 
-Students can download up to 10 GB per week of data. 
-Limit bandwidth usage to 50 mbps for professors. 
-Please make traffic coming from the Internet pass through a firewall. 
-Hey Lumi please block traffic for all students 
-add a firewall 
-From gateway to network add middlebox firewall 
-From my house to PUCRS add middlebox dpi 
-From dorms to internet add nat 
-From university to internet add firewall 
-Please add traffic shaper between the internet and the dorms 
-Please, block netflix traffic on PUC 
-Block streaming traffic on UFRGS 
-Add inspection for the university from 10pm to 12pm 
-Block traffic from netflix 
-Add monitor for the university from 04:00 to 22:00 
-Add traffic monitor from PUC to UFRGS 
-add shaping for gateway everyday from 18:00 to midnight 
-Add a firewall and address translation for att and verizon 
-Define a quota of 10 GB per week for all students 
-Dorms traffic to internet must pass through a firewall 
-We provide a quota to all students of 1 GB/wk of usage. 
-Add inspection for the university from 22:00 to 12:00 
-Remove firewall from the university to my house 
-add security from entry to backend 
-From gateway to my network remove nat 
-Remove load balancing from gateway to database 
-Add firewall from gateway to my house from 06:00 to 21:00 
-Remove nat for gateway everyday from 18:00 to midnight 
-We provide a data plan quota for all staff of 10 GB per day 
-We provide a quota to all students of 1 GB per week of usage 
-Please Lumi, block streaming traffic for students and set a 10 Mbps bandwidth limit 
-Please allow social media for the HR department 
-Let students access Facebook 
-Do no let students access Netflix from the laboratories to the internet 
-Block all traffic from HR to the backend servers 
-Students may use up to 10 GB of data weekly 
-Block streaming and gaming traffic in classrooms 
-Add intrusion detection and address translation for servers network 
-Dismiss rate limiting for faculty members 
-Dismiss all middleboxes from UFRGS to PUCRS 
-Include parental control for PlayStation 
-Do not let Staff members access any social media 
-Set users bandwidth to 500 kbps when the 100 Gb per month quota is reached 
-Prioritize Netflix traffic from 18:00 to midnight 
-Balance traffic coming from gateway to application servers 
-Block torrent traffic for all students 
-Block bittorrent for professors 
-Staff is allowed to access ftp 
-Students cannot run file servers 
-Add parental control from my house to internet 
-Students should not use more than five gigabytes of bandwidth per week 
-Block all incoming HTTP traffic, allow only HTTPS for all hosts 
-Permit gaming for PS4 from 13:00 to 18:00 
-Email traffic is allowed for Staff members 
-Grant SFTP access to all students from 08:00 to 17:00 
-Dismiss all rate limits and quotas for all hosts 
-Prioritize VoIP traffic on the meeting room 23 from 13:00 to 14:00 
-Forward all the external traffic to DMZ 
-Limit in 10 Mbps the download rate of dorms from internet 
-Lumi, block SIP traffic from 19:00 to 08:00 for dorms 
-Grant SSH access to professors 
-Setup a packet filter for guests traffic 
-Lumi, please set to 1 GB per day the download limit for guests 
-Lumi, prohibit access to internal campus computers from the internet 
-Increase the bandwidth consumption limit for professors to 100 Mbps 
-Allow RTSP traffic in the LAN 
-Lumi, please install an email scanner for the gateway 
-Lumi, block VoIP traffic from 00:00 to 06:00 
-Set to 1 Gbps bandwidth limit for the traffic to DMZ 
-Lumi, set to 10 kbps the upload rate for faculty 
-Please, allow Skype for all users 
-Deny SSH access to students 
-Lumi, setup a TCP accelerator between LAN and video server 
-Lumi, allow access to internal campus computers from the internet through SSH 
-Reduce the download rate for faculty members to 20 Mbps 
-Allow access from computers to DMZ 
-Lumi monitors the network trafficoperation) traffic for labs through the dpi 
-put a download quota for students of 10 gb per week 
-limit torrent traffic to 100 mbps 
-block F2movies traffic for students in the labs 
-set a 10 GB per week download quota for students in dorms 
-ensure that all traffic from the Internet to the labs is carefully inspected by the Deep Packet Inspection middlebox 
-limit torrent traffic for guests to 100 Mbps 
-inspect all internet traffic 
-Students can download up to 10 GB per week of data. 
-Limit bandwidth usage to 50 mbps for professors. 
-Please make traffic coming from the Internet pass through a firewall. 
-Hey Lumi please block traffic for all students 
-add a firewall 
-From gateway to network add middlebox firewall 
-From my house to PUCRS add middlebox dpi 
-From dorms to internet add nat 
-From university to internet add firewall 
-Please add traffic shaper between the internet and the dorms 
-Please, block netflix traffic on PUC 
-Block streaming traffic on UFRGS 
-Add inspection for the university from 10pm to 12pm 
-Block traffic from netflix 
-Add monitor for the university from 04:00 to 22:00 
-Add traffic monitor from PUC to UFRGS 
-add shaping for gateway everyday from 18:00 to midnight 
-Add a firewall and address translation for att and verizon 
-Define a quota of 10 GB per week for all students 
-Dorms traffic to internet must pass through a firewall 
-We provide a quota to all students of 1 GB/wk of usage. 
-Add inspection for the university from 22:00 to 12:00 
-Remove firewall from the university to my house 
-add security from entry to backend 
-From gateway to my network remove nat 
-Remove load balancing from gateway to database 
-Add firewall from gateway to my house from 06:00 to 21:00 
-Remove nat for gateway everyday from 18:00 to midnight 
-We provide a data plan quota for all staff of 10 GB per day 
-We provide a quota to all students of 1 GB per week of usage 
-Please Lumi, block streaming traffic for students and set a 10 Mbps bandwidth limit 
-Please allow social media for the HR department 
-Let students access Facebook 
-Do no let students access Netflix from the laboratories to the internet 
-Block all traffic from HR to the backend servers 
-Students may use up to 10 GB of data weekly 
-Block streaming and gaming traffic in classrooms 
-Add intrusion detection and address translation for servers network 
-Dismiss rate limiting for faculty members 
-Dismiss all middleboxes from UFRGS to PUCRS 
-Include parental control for PlayStation 
-Do not let Staff members access any social media 
-Set users bandwidth to 500 kbps when the 100 Gb per month quota is reached 
-Prioritize Netflix traffic from 18:00 to midnight 
-Balance traffic coming from gateway to application servers 
-Block torrent traffic for all students 
-Block bittorrent for professors 
-Staff is allowed to access ftp 
-Students cannot run file servers 
-Add parental control from my house to internet 
-Students should not use more than five gigabytes of bandwidth per week 
-Block all incoming HTTP traffic, allow only HTTPS for all hosts 
-Permit gaming for PS4 from 13:00 to 18:00 
-Email traffic is allowed for Staff members 
-Grant SFTP access to all students from 08:00 to 17:00 
-Dismiss all rate limits and quotas for all hosts 
-Prioritize VoIP traffic on the meeting room 23 from 13:00 to 14:00 
-Forward all the external traffic to DMZ 
-Limit in 10 Mbps the download rate of dorms from internet 
-Lumi, block SIP traffic from 19:00 to 08:00 for dorms 
-Grant SSH access to professors 
-Setup a packet filter for guests traffic 
-Lumi, please set to 1 GB per day the download limit for guests 
-Lumi, prohibit access to internal campus computers from the internet 
-Increase the bandwidth consumption limit for professors to 100 Mbps 
-Allow RTSP traffic in the LAN 
-Lumi, please install an email scanner for the gateway 
-Lumi, block VoIP traffic from 00:00 to 06:00 
-Set to 1 Gbps bandwidth limit for the traffic to DMZ 
-Lumi, set to 10 kbps the upload rate for faculty 
-Please, allow Skype for all users 
-Deny SSH access to students 
-Lumi, setup a TCP accelerator between LAN and video server 
-Lumi, allow access to internal campus computers from the internet through SSH 
-Reduce the download rate for faculty members to 20 Mbps 
-Allow access from computers to DMZ 
-Lumi monitors the network traffic
+Lumi, for the [guest network](location), [limit](qos_constraint) the traffic of [torrent](traffic) protocol to [100](qos_value) [mbps](qos_unit)
+[unblock](operation) [facebook](service)
+[unblock](operation) [traffic](traffic)
+[block](operation) [facebook](service)
+[Block](operation) [F2movies traffic](service) from [Internet](location) to [Labs](location)
+[Block](operation) [F2movies traffic](service) from [Internet](location) to [student Labs](location)
+[Add](operation) [DPI](middlebox) middlebox into [all traffic](traffic) from [Internet](location) to the [Labs](location)
+[All traffic](traffic) from the [Internet](location) to the [Labs](location) has to go to [DPI](middlebox) server and then goes to the Labs
+[add](operation) [dpi](middlebox) to [labs](location) [network](location)
+Hey Lumi, [add](operation) [DPI](middlebox) to the [labs](location) network
+hey Lumi, [add](operation) [dpi](middlebox) to [labs](location)
+[limit](qos_constraint) [servers](location) [bandwidth](qos_metric) to [5](qos_value) [gbps](qos_unit) between [4pm](hour) and [7pm](hour)
+[unblock](operation) [facebook traffic](service)
+[allow](operation) [all traffic](traffic)
+[block](operation) all [student](group) [traffic](traffic) in the [network](location)
+[block](operation) all [student](group) [traffic](traffic)
+[block](operation) [all traffic](traffic)
+[Limit](qos_constraint) [students](group) in the [dorm](location) to [10](qos_value) [GB per week](qos_unit)
+Make sure [all traffic](traffic) from the [Internet](location) to the [labs](location) is [inspected](middlebox) by the [DPI](middlebox) middlebox
+Between [internet](location) and [servers](location) [limit](qos_constraint) [traffic](traffic) to [5](qos_value) [Gbps](qos_unit) start [16:00](hour) finish [19:00](hour)
+Between [internet](location) and [servers](location) [limit](qos_constraint) [traffic](traffic) to [5](qos_value) [Gbps](qos_unit) interval [4pm](hour) to [7pm](hour)
+[limit](qos_constraint) the [bandwidth](qos_metric) to [5](qos_value) [Gb](qos_unit) for rack [servers](location) from [4 pm](hour) until [7 pm](hour)
+[limit](qos_constraint) [traffic](traffic) to [5](qos_value) [Gbps](qos_unit) between [internet](location) and [servers](location) [or [16:00](hour) to [19:00](hour)
+[set](operation) [quota](qos_metric) to [10](qos_value) [GB per week](qos_unit) at [labs](location)
+[set](operation) [quota](qos_metric) to [10](qos_value) [GB per week](qos_unit) at [servers](location)
+[Set](operation) [quota](qos_metric) to [10](qos_value) [GB per week](qos_unit) [dorms](location)
+[Set](operation) [quota](qos_metric) to [10](qos_value) [GB per week](qos_unit) at [guest](location)
+[Set](operation) [quota](qos_metric) to [10](qos_value) [GB per week](qos_unit) at [dorms](location)
+[set](operation) [quota](qos_metric) to [10](qos_value) [GB per week](qos_unit) at [LAN](location)
+[block](operation) [all traffic](traffic) at [Dorms](location) location
+[Limit](qos_constraint) [traffic](traffic) to [10](qos_value) [GB per week](qos_unit) at [Dorms](location)
+for endpoint [dorms](location) [set](operation) [quota](qos_metric) [download](qos_constraint) [10](qos_value) [gb/wk](qos_unit)
+At endpoint [Dorms](location) [set](operation) [quota](qos_metric) to [10](qos_value) [GB per week](qos_unit)
+[Students](group) shall [download](qos_constraint) [no more than](qos_metric) [1000000](qos_value) [MB per week](qos_unit)
+hey lumi, please [add](operation) a [DPI](middlebox) to ensure [students](group) from the [labs](location) are not accessing suspicious applications
+[Limit](qos_constraint) rack [servers](location) to [5](qos_value) [gbps](qos_unit) during [5pm](hour) to [7pm](hour)
+[Limit](qos_constraint) [servers](location) to [5](qos_value) [gbps](qos_unit) during [5pm](hour) to [7pm](hour)
+[Set](operation) [5](qos_value) [gbps](qos_unit) [limit](qos_constraint) for [servers](location) during [4pm](hour) to [7pm](hour)
+please lumi, [block](operation) [f2movies traffic](service) from [internet](location) to [students](group) [labs](location)
+hey lumi, please [allow](operation) [traffic](traffic) only from [professors](group)
+please lumi, [define](operation) [dorms](location) [quota](qos_metric) to [10](qos_value) [gb per week](qos_unit)
+[Students](group) shall [download](qos_constraint) [no more than](qos_metric) [1000000](qos_value) [megabytes per week](qos_unit)
+please [limit](qos_constraint) [bandwidth](qos_metric) to [5](qos_value) [Gigabits per second](qos_unit) for the [server racks](location) everyday from [4 PM](hour) to [7PM](hour)
+[limit](qos_constraint) the [bandwidth](qos_metric) in [server racks](location) to [5](qos_value) [gbps](qos_unit) between [4pm](hour) and [7pm](hour)
+I want the [torrent traffic](traffic) from [guest users](group) to be [no more than](qos_metric) [100](qos_value) [mbps](qos_unit)
+[limit](qos_constraint) [network usage](qos_metric) of all [students](group) in the [dorms](location) to no more than [10](qos_value) [gb per seven days](qos_unit)
+[prevent](operation) all [f2movies traffic](service) from reaching the [students](group) in the [labs](location)
+[Add](operation) [monitor](middlebox) for the [university](location) from [4am](hour) to [10pm](hour)
+[set](operation) a [maximum](qos_constraint) of [5](qos_value) [gbps](qos_unit) to the [servers](location) from [4pm](hour) to [7pm](hour)
+[students](group) should [download](qos_constraint) [no more than](qos_metric) [10](qos_value) [GB of data in a week](qos_unit)
+[set](operation) [torrent traffic](traffic) from [guests](group) to [100](qos_value) [mbps](qos_unit)
+From [internet](location) to [Labs](location) [add](operation) [DPI](middlebox)
+From [internet](location) to [Labs](location) [block](operation) [F2movies](service)
+[limit](qos_constraint) the [bandwidth rate](qos_metric) of the [server racks](location) to [5](qos_value) [gbps](qos_unit) from [4pm](hour) to [7pm](hour)
+[block](operation) [traffic](traffic) of the [server racks](location)
+[block](operation) [all traffic](traffic) for the [server racks](location)
+[limit](qos_constraint) to [100](qos_value) [Mbps](qos_unit) the [bandwidth](qos_metric) [torrent traffic](traffic) can consume
+[forward]( - Lumi, for the [guest network](location), [limit](qos_constraint) the traffic of [torrent](traffic) protocol to [100](qos_value) [mbps](qos_unit)
+[unblock](operation) [facebook](service)
+[unblock](operation) [traffic](traffic)
+[block](operation) [facebook](service)
+[Block](operation) [F2movies traffic](service) from [Internet](location) to [Labs](location)
+[Block](operation) [F2movies traffic](service) from [Internet](location) to [student Labs](location)
+[Add](operation) [DPI](middlebox) middlebox into [all traffic](traffic) from [Internet](location) to the [Labs](location)
+[All traffic](traffic) from the [Internet](location) to the [Labs](location) has to go to [DPI](middlebox) server and then goes to the Labs
+[add](operation) [dpi](middlebox) to [labs](location) [network](location)
+Hey Lumi, [add](operation) [DPI](middlebox) to the [labs](location) network
+hey Lumi, [add](operation) [dpi](middlebox) to [labs](location)
+[limit](qos_constraint) [servers](location) [bandwidth](qos_metric) to [5](qos_value) [gbps](qos_unit) between [4pm](hour) and [7pm](hour)
+[unblock](operation) [facebook traffic](service)
+[allow](operation) [all traffic](traffic)
+[block](operation) all [student](group) [traffic](traffic) in the [network](location)
+[block](operation) all [student](group) [traffic](traffic)
+[block](operation) [all traffic](traffic)
+[Limit](qos_constraint) [students](group) in the [dorm](location) to [10](qos_value) [GB per week](qos_unit)
+Make sure [all traffic](traffic) from the [Internet](location) to the [labs](location) is [inspected](middlebox) by the [DPI](middlebox) middlebox
+Between [internet](location) and [servers](location) [limit](qos_constraint) [traffic](traffic) to [5](qos_value) [Gbps](qos_unit) start [16:00](hour) finish [19:00](hour)
+Between [internet](location) and [servers](location) [limit](qos_constraint) [traffic](traffic) to [5](qos_value) [Gbps](qos_unit) interval [4pm](hour) to [7pm](hour)
+[limit](qos_constraint) the [bandwidth](qos_metric) to [5](qos_value) [Gb](qos_unit) for rack [servers](location) from [4 pm](hour) until [7 pm](hour)
+[limit](qos_constraint) [traffic](traffic) to [5](qos_value) [Gbps](qos_unit) between [internet](location) and [servers](location) [or [16:00](hour) to [19:00](hour)
+[set](operation) [quota](qos_metric) to [10](qos_value) [GB per week](qos_unit) at [labs](location)
+[set](operation) [quota](qos_metric) to [10](qos_value) [GB per week](qos_unit) at [servers](location)
+[Set](operation) [quota](qos_metric) to [10](qos_value) [GB per week](qos_unit) [dorms](location)
+[Set](operation) [quota](qos_metric) to [10](qos_value) [GB per week](qos_unit) at [guest](location)
+[Set](operation) [quota](qos_metric) to [10](qos_value) [GB per week](qos_unit) at [dorms](location)
+[set](operation) [quota](qos_metric) to [10](qos_value) [GB per week](qos_unit) at [LAN](location)
+[block](operation) [all traffic](traffic) at [Dorms](location) location
+[Limit](qos_constraint) [traffic](traffic) to [10](qos_value) [GB per week](qos_unit) at [Dorms](location)
+for endpoint [dorms](location) [set](operation) [quota](qos_metric) [download](qos_constraint) [10](qos_value) [gb/wk](qos_unit)
+At endpoint [Dorms](location) [set](operation) [quota](qos_metric) to [10](qos_value) [GB per week](qos_unit)
+[Students](group) shall [download](qos_constraint) [no more than](qos_metric) [1000000](qos_value) [MB per week](qos_unit)
+hey lumi, please [add](operation) a [DPI](middlebox) to ensure [students](group) from the [labs](location) are not accessing suspicious applications
+[Limit](qos_constraint) rack [servers](location) to [5](qos_value) [gbps](qos_unit) during [5pm](hour) to [7pm](hour)
+[Limit](qos_constraint) [servers](location) to [5](qos_value) [gbps](qos_unit) during [5pm](hour) to [7pm](hour)
+[Set](operation) [5](qos_value) [gbps](qos_unit) [limit](qos_constraint) for [servers](location) during [4pm](hour) to [7pm](hour)
+please lumi, [block](operation) [f2movies traffic](service) from [internet](location) to [students](group) [labs](location)
+hey lumi, please [allow](operation) [traffic](traffic) only from [professors](group)
+please lumi, [define](operation) [dorms](location) [quota](qos_metric) to [10](qos_value) [gb per week](qos_unit)
+[Students](group) shall [download](qos_constraint) [no more than](qos_metric) [1000000](qos_value) [megabytes per week](qos_unit)
+please [limit](qos_constraint) [bandwidth](qos_metric) to [5](qos_value) [Gigabits per second](qos_unit) for the [server racks](location) everyday from [4 PM](hour) to [7PM](hour)
+[limit](qos_constraint) the [bandwidth](qos_metric) in [server racks](location) to [5](qos_value) [gbps](qos_unit) between [4pm](hour) and [7pm](hour)
+I want the [torrent traffic](traffic) from [guest users](group) to be [no more than](qos_metric) [100](qos_value) [mbps](qos_unit)
+[limit](qos_constraint) [network usage](qos_metric) of all [students](group) in the [dorms](location) to no more than [10](qos_value) [gb per seven days](qos_unit)
+[prevent](operation) all [f2movies traffic](service) from reaching the [students](group) in the [labs](location)
+[Add](operation) [monitor](middlebox) for the [university](location) from [4am](hour) to [10pm](hour)
+[set](operation) a [maximum](qos_constraint) of [5](qos_value) [gbps](qos_unit) to the [servers](location) from [4pm](hour) to [7pm](hour)
+[students](group) should [download](qos_constraint) [no more than](qos_metric) [10](qos_value) [GB of data in a week](qos_unit)
+[set](operation) [torrent traffic](traffic) from [guests](group) to [100](qos_value) [mbps](qos_unit)
+From [internet](location) to [Labs](location) [add](operation) [DPI](middlebox)
+From [internet](location) to [Labs](location) [block](operation) [F2movies](service)
+[limit](qos_constraint) the [bandwidth rate](qos_metric) of the [server racks](location) to [5](qos_value) [gbps](qos_unit) from [4pm](hour) to [7pm](hour)
+[block](operation) [traffic](traffic) of the [server racks](location)
+[block](operation) [all traffic](traffic) for the [server racks](location)
+[limit](qos_constraint) to [100](qos_value) [Mbps](qos_unit) the [bandwidth](qos_metric) [torrent traffic](traffic) can consume
+[forward](operation) [traffic](traffic) for [labs](location) through the [dpi](middlebox)
+put a [download](qos_constraint) [quota](qos_metric) for [students](group) of [10](qos_value) [gb per week](qos_unit)
+[limit](qos_constraint) [torrent traffic](traffic) to [100](qos_value) [mbps](qos_unit)
+[block](operation) [F2movies traffic](service) for [students](group) in the [labs](location)
+[set](operation) a [10](qos_value) [GB per week](qos_unit) [download](qos_constraint) [quota](qos_metric) for [students](group) in [dorms](location)
+ensure that [all traffic](traffic) from the [Internet](location) to the [labs](location) is carefully inspected by the [Deep Packet Inspection](middlebox) middlebox
+[limit](qos_constraint) [torrent traffic](traffic) for [guests](group) to [100](qos_value) [Mbps](qos_unit)
+[inspect](middlebox) [all](traffic) [internet](location) traffic
+[Students](group) can [download](qos_constraint) up to [10](qos_value) [GB per week](qos_unit) of [data](qos_metric).
+[Limit](qos_constraint) [bandwidth](qos_metric) usage to [50](qos_value) [mbps](qos_unit) for [professors](group).
+Please make traffic coming from the [Internet](location) [pass through](operation) a [firewall](middlebox).
+Hey Lumi please [block](operation) [traffic](traffic) for all [students](group)
+[add](operation) a [firewall](middlebox)
+From [gateway](location) to [network](location) [add](operation) middlebox [firewall](middlebox)
+From [my house](location) to [PUCRS](location) [add](operation) middlebox [dpi](middlebox)
+From [dorms](location) to [internet](location) [add](operation) [nat](middlebox)
+From [university](location) to [internet](location) [add](operation) [firewall](middlebox)
+Please add [traffic shaper](middlebox) between the [internet](location) and the [dorms](location)
+Please, [block](operation) [netflix](service) traffic on [PUC](location)
+[Block](operation) [streaming traffic](traffic) on [UFRGS](location)
+[Add](operation) [inspection](middlebox) for the [university](location) [from 10pm](hour) [to 12pm](hour)
+[Block](operation) traffic from [netflix](location)
+Add [monitor](middlebox) for the [university](location) from [04:00](hour) to [22:00](hour)
+[Add](operation) [traffic monitor](middlebox) from [PUC](location) to [UFRGS](location)
+add [shaping](middlebox) for [gateway](location) everyday from [18:00](hour) to [midnight](hour)
+Add a [firewall](middlebox) and [address translation](middlebox) for [att](group) and [verizon](group)
+[Define](operation) a [quota](qos_metric) of [10](qos_value) [GB per week](qos_unit) for all [students](group)
+[Dorms](location) traffic to [internet](location) [must pass through](operation) a [firewall](middlebox)
+We provide a [quota](qos_metric) to all [students](group) of [1](qos_value) [GB/wk](qos_unit) of usage.
+[Add](operation) [inspection](middlebox) for the [university](location) from [22:00](hour) to [12:00](hour)
+[Remove](operation) [firewall](middlebox) from the [university](location) to [my house](location)
+[add](operation) [security](middlebox) from [entry](location) to [backend](location)
+From [gateway](location) to [my network](location) [remove](operation) [nat](middlebox)
+[Remove](operation) [load balancing](middlebox) from [gateway](location) to [database](location)
+[Add](operation) [firewall](middlebox) from [gateway](location) to [my house](location) from [06:00](hour) to [21:00](hour)
+[Remove](operation) [nat](middlebox) for [gateway](location) everyday from [18:00](hour) to [midnight](hour)
+We [provide](operation) a data plan [quota](qos_metric) for all [staff](group) of [10](qos_value) [GB per day](qos_unit)
+We [provide](operation) a [quota](qos_metric) to all [students](group) of [1](qos_value) [GB per week](qos_unit) of usage
+Please Lumi, [block](operation) [streaming traffic](traffic) for [students](group) and [set](operation) a [10](qos_value) [Mbps](qos_unit) [bandwidth](qos_metric) limit
+Please [allow](operation) [social media](traffic) for the [HR department](location)
+[Let](operation) [students](group) access [Facebook](service)
+[Do no let](operation) [students](group) access [Netflix](service) from the [laboratories](location) to the [internet](location)
+[Block](operation) [all traffic](traffic) from [HR](location) to the [backend servers](location)
+[Students](group) [may use](qos_metric) up to [10](qos_value) [GB of data weekly](qos_unit)
+[Block](operation) [streaming](traffic) and [gaming](traffic) traffic in [classrooms](location)
+[Add](operation) [intrusion detection](middlebox) and [address translation](middlebox) for [servers](location) network
+[Dismiss](operation) [rate limiting](qos_metric) for [faculty](group) members
+[Dismiss](operation) [all middleboxes](middlebox) from [UFRGS](location) to [PUCRS](location)
+[Include](operation) [parental control](middlebox) for [PlayStation](service)
+[Do not let](operation) [Staff members](group) access any [social media](traffic)
+[Set](operation) [users](group) [bandwidth](qos_metric) to [500](qos_value) [kbps](qos_unit) when the [100](qos_value) [Gb per month](qos_unit) [quota](qos_metric) is reached
+[Prioritize](middlebox) [Netflix](service) traffic from [18:00](hour) to [midnight](hour)
+[Balance](middlebox) traffic coming from [gateway](location) to [application servers](location)
+[Block](operation) [torrent traffic](traffic) for all [students](group)
+[Block](operation) [bittorrent](service) for [professors](group)
+[Staff](group) [is allowed to](operation) access [ftp](protocol)
+[Students](group) [cannot run](operation) [file servers](service)
+[Add](operation) [parental control](middlebox) from [my house](location) to [internet](location)
+[Students](group) [should not use more than](qos_metric) [five](qos_value) [gigabytes of bandwidth per week](qos_unit)
+[Block](operation) all incoming [HTTP](protocol) traffic, [allow](operation) only [HTTPS](protocol) for all [hosts](location)
+[Permit](operation) [gaming](traffic) for [PS4](location) from [13:00](hour) to [18:00](hour)
+[Email](service) traffic [is allowed](operation) for [Staff members](group)
+[Grant](operation) [SFTP](protocol) access to all [students](group) from [08:00](hour) to [17:00](hour)
+[Dismiss](operation) all [rate limits](qos_metric) and [quotas](qos_metric) for all [hosts](location)
+[Prioritize](middlebox) [VoIP](traffic) traffic on the [meeting room 23](location) from [13:00](hour) to [14:00](hour)
+[Forward](operation) all the [external](location) traffic to [DMZ](location)
+[Limit](qos_constraint) in [10](qos_value) [Mbps](qos_unit) the [download rate](qos_metric) of [dorms](location) from [internet](location)
+Lumi, [block](operation) [SIP traffic](protocol) from [19:00](hour) to [08:00](hour) for [dorms](location)
+[Grant](operation) [SSH](protocol) access [to professors](group)
+[Setup](operation) a [packet filter](middlebox) for [guests](group) traffic
+Lumi, please [set](operation) to [1](qos_value) [GB per day](qos_unit) the [download limit](qos_metric) for [guests](group)
+Lumi, [prohibit](operation) access to [internal campus computers](location) from the [internet](location)
+[Increase](operation) the [bandwidth consumption limit](qos_metric) for [professors](group) to [100](qos_value) [Mbps](qos_unit)
+[Allow](operation) [RTSP](protocol) traffic in the [LAN](location)
+Lumi, please [install](operation) an [email scanner](middlebox) for the [gateway](location)
+Lumi, [block](operation) [VoIP](traffic) traffic from [00:00](hour) to [06:00](hour)
+[Set](operation) to [1](qos_value) [Gbps](qos_unit) [bandwidth](qos_metric) [limit](qos_constraint) for the traffic to [DMZ](location)
+Lumi, [set to](operation) [10](qos_value) [kbps](qos_unit) the [upload rate](qos_metric) for [faculty](group)
+Please, [allow](operation) [Skype](service) for all [users](group)
+[Deny](operation) [SSH](protocol) access to [students](group)
+Lumi, [setup](operation) a [TCP accelerator](middlebox) between [LAN](location) and [video server](location)
+Lumi, [allow](operation) access to [internal campus computers](location) from the [internet](location) through [SSH](protocol)
+[Reduce](operation) the [download rate](qos_metric) for [faculty members](group) to [20](qos_value) [Mbps](qos_unit)
+[Allow](operation) access from [computers](location) to [DMZ](location)
+Lumi [monitors](middlebox) the [network](location) trafficoperation) [traffic](traffic) for [labs](location) through the [dpi](middlebox)
+put a [download](qos_constraint) [quota](qos_metric) for [students](group) of [10](qos_value) [gb per week](qos_unit)
+[limit](qos_constraint) [torrent traffic](traffic) to [100](qos_value) [mbps](qos_unit)
+[block](operation) [F2movies traffic](service) for [students](group) in the [labs](location)
+[set](operation) a [10](qos_value) [GB per week](qos_unit) [download](qos_constraint) [quota](qos_metric) for [students](group) in [dorms](location)
+ensure that [all traffic](traffic) from the [Internet](location) to the [labs](location) is carefully inspected by the [Deep Packet Inspection](middlebox) middlebox
+[limit](qos_constraint) [torrent traffic](traffic) for [guests](group) to [100](qos_value) [Mbps](qos_unit)
+[inspect](middlebox) [all](traffic) [internet](location) traffic
+[Students](group) can [download](qos_constraint) up to [10](qos_value) [GB per week](qos_unit) of [data](qos_metric).
+[Limit](qos_constraint) [bandwidth](qos_metric) usage to [50](qos_value) [mbps](qos_unit) for [professors](group).
+Please make traffic coming from the [Internet](location) [pass through](operation) a [firewall](middlebox).
+Hey Lumi please [block](operation) [traffic](traffic) for all [students](group)
+[add](operation) a [firewall](middlebox)
+From [gateway](location) to [network](location) [add](operation) middlebox [firewall](middlebox)
+From [my house](location) to [PUCRS](location) [add](operation) middlebox [dpi](middlebox)
+From [dorms](location) to [internet](location) [add](operation) [nat](middlebox)
+From [university](location) to [internet](location) [add](operation) [firewall](middlebox)
+Please add [traffic shaper](middlebox) between the [internet](location) and the [dorms](location)
+Please, [block](operation) [netflix](service) traffic on [PUC](location)
+[Block](operation) [streaming traffic](traffic) on [UFRGS](location)
+[Add](operation) [inspection](middlebox) for the [university](location) [from 10pm](hour) [to 12pm](hour)
+[Block](operation) traffic from [netflix](location)
+Add [monitor](middlebox) for the [university](location) from [04:00](hour) to [22:00](hour)
+[Add](operation) [traffic monitor](middlebox) from [PUC](location) to [UFRGS](location)
+add [shaping](middlebox) for [gateway](location) everyday from [18:00](hour) to [midnight](hour)
+Add a [firewall](middlebox) and [address translation](middlebox) for [att](group) and [verizon](group)
+[Define](operation) a [quota](qos_metric) of [10](qos_value) [GB per week](qos_unit) for all [students](group)
+[Dorms](location) traffic to [internet](location) [must pass through](operation) a [firewall](middlebox)
+We provide a [quota](qos_metric) to all [students](group) of [1](qos_value) [GB/wk](qos_unit) of usage.
+[Add](operation) [inspection](middlebox) for the [university](location) from [22:00](hour) to [12:00](hour)
+[Remove](operation) [firewall](middlebox) from the [university](location) to [my house](location)
+[add](operation) [security](middlebox) from [entry](location) to [backend](location)
+From [gateway](location) to [my network](location) [remove](operation) [nat](middlebox)
+[Remove](operation) [load balancing](middlebox) from [gateway](location) to [database](location)
+[Add](operation) [firewall](middlebox) from [gateway](location) to [my house](location) from [06:00](hour) to [21:00](hour)
+[Remove](operation) [nat](middlebox) for [gateway](location) everyday from [18:00](hour) to [midnight](hour)
+We [provide](operation) a data plan [quota](qos_metric) for all [staff](group) of [10](qos_value) [GB per day](qos_unit)
+We [provide](operation) a [quota](qos_metric) to all [students](group) of [1](qos_value) [GB per week](qos_unit) of usage
+Please Lumi, [block](operation) [streaming traffic](traffic) for [students](group) and [set](operation) a [10](qos_value) [Mbps](qos_unit) [bandwidth](qos_metric) limit
+Please [allow](operation) [social media](traffic) for the [HR department](location)
+[Let](operation) [students](group) access [Facebook](service)
+[Do no let](operation) [students](group) access [Netflix](service) from the [laboratories](location) to the [internet](location)
+[Block](operation) [all traffic](traffic) from [HR](location) to the [backend servers](location)
+[Students](group) [may use](qos_metric) up to [10](qos_value) [GB of data weekly](qos_unit)
+[Block](operation) [streaming](traffic) and [gaming](traffic) traffic in [classrooms](location)
+[Add](operation) [intrusion detection](middlebox) and [address translation](middlebox) for [servers](location) network
+[Dismiss](operation) [rate limiting](qos_metric) for [faculty](group) members
+[Dismiss](operation) [all middleboxes](middlebox) from [UFRGS](location) to [PUCRS](location)
+[Include](operation) [parental control](middlebox) for [PlayStation](service)
+[Do not let](operation) [Staff members](group) access any [social media](traffic)
+[Set](operation) [users](group) [bandwidth](qos_metric) to [500](qos_value) [kbps](qos_unit) when the [100](qos_value) [Gb per month](qos_unit) [quota](qos_metric) is reached
+[Prioritize](middlebox) [Netflix](service) traffic from [18:00](hour) to [midnight](hour)
+[Balance](middlebox) traffic coming from [gateway](location) to [application servers](location)
+[Block](operation) [torrent traffic](traffic) for all [students](group)
+[Block](operation) [bittorrent](service) for [professors](group)
+[Staff](group) [is allowed to](operation) access [ftp](protocol)
+[Students](group) [cannot run](operation) [file servers](service)
+[Add](operation) [parental control](middlebox) from [my house](location) to [internet](location)
+[Students](group) [should not use more than](qos_metric) [five](qos_value) [gigabytes of bandwidth per week](qos_unit)
+[Block](operation) all incoming [HTTP](protocol) traffic, [allow](operation) only [HTTPS](protocol) for all [hosts](location)
+[Permit](operation) [gaming](traffic) for [PS4](location) from [13:00](hour) to [18:00](hour)
+[Email](service) traffic [is allowed](operation) for [Staff members](group)
+[Grant](operation) [SFTP](protocol) access to all [students](group) from [08:00](hour) to [17:00](hour)
+[Dismiss](operation) all [rate limits](qos_metric) and [quotas](qos_metric) for all [hosts](location)
+[Prioritize](middlebox) [VoIP](traffic) traffic on the [meeting room 23](location) from [13:00](hour) to [14:00](hour)
+[Forward](operation) all the [external](location) traffic to [DMZ](location)
+[Limit](qos_constraint) in [10](qos_value) [Mbps](qos_unit) the [download rate](qos_metric) of [dorms](location) from [internet](location)
+Lumi, [block](operation) [SIP traffic](protocol) from [19:00](hour) to [08:00](hour) for [dorms](location)
+[Grant](operation) [SSH](protocol) access [to professors](group)
+[Setup](operation) a [packet filter](middlebox) for [guests](group) traffic
+Lumi, please [set](operation) to [1](qos_value) [GB per day](qos_unit) the [download limit](qos_metric) for [guests](group)
+Lumi, [prohibit](operation) access to [internal campus computers](location) from the [internet](location)
+[Increase](operation) the [bandwidth consumption limit](qos_metric) for [professors](group) to [100](qos_value) [Mbps](qos_unit)
+[Allow](operation) [RTSP](protocol) traffic in the [LAN](location)
+Lumi, please [install](operation) an [email scanner](middlebox) for the [gateway](location)
+Lumi, [block](operation) [VoIP](traffic) traffic from [00:00](hour) to [06:00](hour)
+[Set](operation) to [1](qos_value) [Gbps](qos_unit) [bandwidth](qos_metric) [limit](qos_constraint) for the traffic to [DMZ](location)
+Lumi, [set to](operation) [10](qos_value) [kbps](qos_unit) the [upload rate](qos_metric) for [faculty](group)
+Please, [allow](operation) [Skype](service) for all [users](group)
+[Deny](operation) [SSH](protocol) access to [students](group)
+Lumi, [setup](operation) a [TCP accelerator](middlebox) between [LAN](location) and [video server](location)
+Lumi, [allow](operation) access to [internal campus computers](location) from the [internet](location) through [SSH](protocol)
+[Reduce](operation) the [download rate](qos_metric) for [faculty members](group) to [20](qos_value) [Mbps](qos_unit)
+[Allow](operation) access from [computers](location) to [DMZ](location)
+Lumi [monitors](middlebox) the [network](location) traffic

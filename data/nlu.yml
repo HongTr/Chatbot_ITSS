@@ -20,14 +20,6 @@ nlu:
     - i'm [minh](name)
     - i prefer to be called [hong](name)
 
-- intent: inquire_time
-  examples: |
-    - what time is it?
-    - what time is it in [Hanoi](place)
-    - what time is it in [London](place)
-    - tell me the time in [Paris](place)
-    - what is the current time in [hanoi](place)
-
 - intent: thanks
   examples: |
     - I'm so happy
@@ -282,23 +274,38 @@ nlu:
     - [Reduce](operation) the [download rate](qos_metric) for [faculty members](group) to [20](qos_value) [Mbps](qos_unit)
     - [Allow](operation) access from [computers](location) to [DMZ](location)
     - Lumi [monitors](middlebox) the [network](location) traffic
-- intent: build-feedback
+- intent: inform
   examples: |
-    - [blocked](value) is an [operation](entity)
-    - you missed [blocked](value)
-    - an [operation](entity)
-    - a [location](entity)
-    - you've missed the [ResNet](value)
-    - the [entity](value)
-    - you've missed the [location](entity)
-    - the [location](entity)
-    - [firewall](value)
-    - the [middlebox](entity)
-    - the [middlebox](entity) I want is a [shaper](value)
-    - the [location](entity) is '[backend](value)'
-    - [housing](value) is a [location](entity)
-    - [Dorms](value) is a [location](entity)
-    - [University](value) is a [location](entity)
-    - [copyright](value) is a [middlebox](entity)
-    - [firewall](value) is a [middlebox](entity)
-    - [nat](value) is a [middlebox](entity)
+    - you missed [internet](location)
+    - you've missed the [internet](location)
+    - [internet](location) is wrong
+    - you've missed the [dorm](location)
+- intent: location
+  examples: |
+    - location
+    - /location
+
+- intent: group
+  examples: |
+    - group
+    - /group
+
+- intent: service
+  examples: |
+    - service
+    - /service
+
+- intent: middlebox
+  examples: |
+    - middlebox
+    - /middlebox
+
+- intent: traffic
+  examples: |
+    - traffic
+    - /traffic
+
+- intent: protocol
+  examples: |
+    - protocol
+    - /protocol

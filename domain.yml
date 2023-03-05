@@ -1,7 +1,6 @@
 version: "3.1"
 
 #everything assistant knows
-
 ###########################################################################
                         #categories of things users say
 intents: 
@@ -9,20 +8,27 @@ intents:
 - say_name
 - goodbye
 - thanks
-- inquire_time
   ####
+- group
+- location
+- middlebox
+- service
+- traffic
+- protocol
+  ###
 - build
 - confirm
 - reject
 - cancel
-- build-feedback
+- inform
 ###########################################################################
                         #information inside of a user message
 entities: 
   - name
-  # command analysis
-  - entity
+  # for feedback
+  # - entity
   - value
+  #others
   - operation
   - target
   - origin
@@ -40,38 +46,45 @@ entities:
   - qos_constraint
   - location
   - hour
-  - Hey_lumi
 ###########################################################################
                         #what assistant says
 responses: 
   utter_greet:
     - text: "Hello, I am an ITSS bot. Who are you?"
-    - text: "Hello there, I am an ITSS bot. Could you tell me who you are?"
-    - text: "Hi, I am an ITSS bot. Can you inform me about your name?"
-    - text: "Hey, I am an ITSS bot. May I ask who I am speaking to?"
-  utter_show_things_can_do:
-  - text: "I can analyze command from you."
-
   utter_goodbye:
     - text: "Bye, see you again"
       image: "http://cdn.shopify.com/s/files/1/0272/7087/3174/products/Bye_Bye_879x_480ec067-6baf-4574-90e1-482013acb53c_600x.jpg?v=1650522039"
   
   utter_analysis_begin:
-    - text: "Welcome to command analysis, please insert your command"
     - text: "What is your command?"
-  utter_lumi:
-    - text: "Invalid command, please start with 'Hey Lumi'!"
-    - text: "Command must have 'Hey Lumi', please insert again"
-  utter_thank:
-    - text: "Thanks for your command!"
-  utter_ask_for_feedback:
+  utter_feedback:
     - text: "Hmmmm :( What did i miss?"
   utter_start_over:
     - text: "Ok, we will restart. Please insert your command again."
-  utter_ask_for_entity:
-    - text: "Which entity is wrong?"
-  utter_ask_for_value:
-    - text: "So the true entity is what?"
+  utter_default:
+    - text: "I'm sorry, I didn't understand. Could you please rephrase or try another question?"
+  #utility
+  utter_thank:
+    - text: "Thanks for your command!"
+  utter_ask_entity:
+    - text: "So the true entity is what?" 
+      buttons: 
+      - title: "group"
+        payload: "/group"
+      - title: "location"
+        payload: "/location"
+      - title: "middlebox"
+        payload: "/middlebox"
+      - title: "service"
+        payload: "/service"
+      - title: "trafic"
+        payload: "/traffic"
+      - title: "protocol"
+        payload: "/protocol"
+  utter_ask_value:
+    - text: "Where am i wrong?"
+  utter_feedback_slots:
+    - text: "So {value} is {entity} right, i get it."
 ###########################################################################
                         #Like define variables get from user message
 slots:
@@ -81,40 +94,45 @@ slots:
     mappings:   #define how slot will be filled in
       - type: from_entity
         entity: name
-  entity:
-    type: categorical
-    influence_conversation: true
-    values: 
-      - group
-      - location
-      - middlebox
-      - service
-      - traffic
-      - protocol
-    mappings: 
-    - type: custom
-  value:
-    type: text
-    influence_conversation: true
-    mappings: 
-    - type: custom
-###########################################################################
-forms: 
-  command_feedback_form:
-    required_slots:
-      - entity
-      - value
+#   entity:
+#     type: categorical
+#     influence_conversation: true
+#     values: 
+#       - group
+#       - location
+#       - middlebox
+#       - service
+#       - traffic
+#       - protocol
+#     mappings: 
+#     - type: custom
+#   value:
+#     type: text
+#     influence_conversation: true
+#     mappings: 
+#     - type: from_entity
+#       entity: value
+# ###########################################################################
+# forms: 
+#   command_feedback_form:
+#     required_slots:
+#       - value
+#       - entity
 ###########################################################################
                         #Custom actions
 actions:
-- action_greet
-- action_tell_time
+  - action_greet
 #option 2
-- action_build   #Receive message from user, respond entity message
-- action_feedback #Receive updated entity, respond to user the updated message
+  - action_build   #Receive message from user, respond entity message
+  # - action_feedback #Receive updated entity, respond to user the updated message
 # - action_feedback_confirm
-- action_restart
-- validate_command_feedback_form
+  - action_restart
+  # - validate_command_feedback_form
+  - action_default_fallback
+  - action_errorExample
+  - action_loop
+  - action_trueEntity
+  - action_correctDictionary
 ###########################################################################
 session_config:
   session_expiration_time: 60

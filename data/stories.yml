@@ -8,7 +8,7 @@ stories: #training data to teach chatbot what it shoud do next
     - action: utter_greet
     - intent: say_name
     - action: action_greet
-    - action: utter_show_things_can_do
+    - action: utter_analysis_begin
 
 ###########################################
 - story: build confirm
@@ -19,43 +19,85 @@ stories: #training data to teach chatbot what it shoud do next
     - action: utter_thank
     - action: action_restart
 
-- story: build with feedback
+- story: build wrong and confirm
   steps:
-    - intent: build
-    - action: action_build
-    - intent: reject
-    - action: utter_ask_for_feedback
-    - active_loop: command_feedback_form
-    - slot_was_set:
-        - requested_slot: entity
-    - slot_was_set:
-        - requested_slot: value
-    - slot_was_set:
-        - requested_slot: null
-    - active_loop: null
-    - action: action_feedback
-    - intent: confirm
-    - action: utter_thank
-    - action: action_restart
+  - intent: build
+  - action: action_build
+  - intent: reject
+  - action: utter_feedback
+  - or:
+    - intent: inform
+    - intent: nlu_fallback
+  - action: action_errorExample
+  - action: utter_ask_entity
+  - or:
+    - intent: location
+    - intent: group
+    - intent: service
+    - intent: middlebox
+    - intent: traffic
+    - intent: protocol
+  - action: action_trueEntity
+  - action: action_correctDictionary
+  - intent: confirm
+  - action: utter_thank
+  - action: action_restart
 
-- story: build and feedback rejected
-  steps:
-    - intent: build
-    - action: action_build
-    - intent: reject
-    - action: utter_ask_for_feedback
-    - active_loop: command_feedback_form
-    - slot_was_set:
-        - requested_slot: entity
-    - slot_was_set:
-        - requested_slot: value
-    - slot_was_set:
-        - requested_slot: null
-    - active_loop: null
-    - action: action_feedback
-    - intent: reject
-    - action: utter_start_over
-    - action: action_restart
+# - story: build wrong and reject
+#   steps:
+#     - intent: build
+#     - action: action_build
+#     - intent: reject
+#     - action: utter_feedback
+#     - intent: inform
+#     - action: action_errorExample
+#     - action: utter_ask_entity
+#     # - intent: inform
+#     - action: action_trueEntity
+#     - action: action_correctDictionary
+#     - intent: reject
+#     - action: utter_start_over
+#     - action: action_restart
+
+
+# - story: build with feedback
+#   steps:
+#     - intent: build
+#     - action: action_build
+#     - intent: reject
+#     - action: utter_ask_for_feedback
+#     - action: command_feedback_form
+#     - active_loop: command_feedback_form
+#     - slot_was_set:
+#       - requested_slot: entity
+#     - slot_was_set:
+#       - requested_slot: value
+#     - slot_was_set:
+#       - requested_slot: null
+#     - active_loop: null
+#     # - action: action_feedback
+#     # - intent: confirm
+#     - action: utter_thank
+#     - action: action_restart
+
+# - story: build and feedback rejected
+#   steps:
+#     - intent: build
+#     - action: action_build
+#     - intent: reject
+#     # - action: utter_ask_for_feedback
+#     - active_loop: command_feedback_form
+#     - slot_was_set:
+#         - requested_slot: entity
+#     - slot_was_set:
+#         - requested_slot: value
+#     - slot_was_set:
+#         - requested_slot: null
+#     - active_loop: null
+#     # - action: action_feedback
+#     - intent: reject
+#     - action: utter_start_over
+#     - action: action_restart
 
 
 

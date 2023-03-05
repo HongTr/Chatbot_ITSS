@@ -55,7 +55,6 @@ From [internet](location) to [Labs](location) [block](operation) [F2movies](serv
 [block](operation) [traffic](traffic) of the [server racks](location)
 [block](operation) [all traffic](traffic) for the [server racks](location)
 [limit](qos_constraint) to [100](qos_value) [Mbps](qos_unit) the [bandwidth](qos_metric) [torrent traffic](traffic) can consume
-[forward]( - Lumi, for the [guest network](location), [limit](qos_constraint) the traffic of [torrent](traffic) protocol to [100](qos_value) [mbps](qos_unit)
 [unblock](operation) [facebook](service)
 [unblock](operation) [traffic](traffic)
 [block](operation) [facebook](service)
