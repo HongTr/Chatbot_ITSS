@@ -1,0 +1,1122 @@
+[
+  {
+    "text": "Between internet and servers limit traffic to 5 Gbps interval 4pm to 7pm",
+    "entities": [
+      {
+        "start": 8,
+        "end": 16,
+        "value": "internet",
+        "entity": "location"
+      },
+      {
+        "start": 21,
+        "end": 28,
+        "value": "servers",
+        "entity": "location"
+      },
+      {
+        "start": 29,
+        "end": 34,
+        "value": "limit",
+        "entity": "qos_constraint"
+      },
+      {
+        "start": 35,
+        "end": 42,
+        "value": "traffic",
+        "entity": "traffic"
+      },
+      {
+        "start": 46,
+        "end": 47,
+        "value": "5",
+        "entity": "qos_value"
+      },
+      {
+        "start": 48,
+        "end": 52,
+        "value": "Gbps",
+        "entity": "qos_unit"
+      },
+      {
+        "start": 62,
+        "end": 65,
+        "value": "4pm",
+        "entity": "hour"
+      },
+      {
+        "start": 69,
+        "end": 72,
+        "value": "7pm",
+        "entity": "hour"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 8,
+        "end": 16,
+        "confidence_entity": 0.9998395442962646,
+        "value": "internet",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "location",
+        "start": 21,
+        "end": 28,
+        "confidence_entity": 0.9889211654663086,
+        "value": "servers",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "qos_constraint",
+        "start": 29,
+        "end": 42,
+        "confidence_entity": 0.6518390774726868,
+        "value": "limit traffic",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "qos_value",
+        "start": 46,
+        "end": 47,
+        "confidence_entity": 0.9940472841262817,
+        "value": "5",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "qos_unit",
+        "start": 48,
+        "end": 52,
+        "confidence_entity": 0.9995470643043518,
+        "value": "Gbps",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "hour",
+        "start": 62,
+        "end": 65,
+        "confidence_entity": 0.9993151426315308,
+        "value": "4pm",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "hour",
+        "start": 69,
+        "end": 72,
+        "confidence_entity": 0.9994605183601379,
+        "value": "7pm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "limit the bandwidth to 5 Gb for rack servers from 4 pm until 7 pm",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "limit",
+        "entity": "qos_constraint"
+      },
+      {
+        "start": 10,
+        "end": 19,
+        "value": "bandwidth",
+        "entity": "qos_metric"
+      },
+      {
+        "start": 23,
+        "end": 24,
+        "value": "5",
+        "entity": "qos_value"
+      },
+      {
+        "start": 25,
+        "end": 27,
+        "value": "Gb",
+        "entity": "qos_unit"
+      },
+      {
+        "start": 37,
+        "end": 44,
+        "value": "servers",
+        "entity": "location"
+      },
+      {
+        "start": 50,
+        "end": 54,
+        "value": "4 pm",
+        "entity": "hour"
+      },
+      {
+        "start": 61,
+        "end": 65,
+        "value": "7 pm",
+        "entity": "hour"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "qos_constraint",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.9985128045082092,
+        "value": "limit",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "qos_metric",
+        "start": 10,
+        "end": 19,
+        "confidence_entity": 0.9633408188819885,
+        "value": "bandwidth",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "qos_value",
+        "start": 23,
+        "end": 24,
+        "confidence_entity": 0.9911196827888489,
+        "value": "5",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "qos_unit",
+        "start": 25,
+        "end": 27,
+        "confidence_entity": 0.5796807408332825,
+        "value": "Gb",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "location",
+        "start": 37,
+        "end": 44,
+        "confidence_entity": 0.9880577325820923,
+        "value": "servers",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "qos_value",
+        "start": 50,
+        "end": 54,
+        "confidence_entity": 0.8531174063682556,
+        "value": "4 pm",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "qos_value",
+        "start": 61,
+        "end": 65,
+        "confidence_entity": 0.6246288418769836,
+        "value": "7 pm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Limit traffic to 10 GB per week at Dorms",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "Limit",
+        "entity": "qos_constraint"
+      },
+      {
+        "start": 6,
+        "end": 13,
+        "value": "traffic",
+        "entity": "traffic"
+      },
+      {
+        "start": 17,
+        "end": 19,
+        "value": "10",
+        "entity": "qos_value"
+      },
+      {
+        "start": 20,
+        "end": 31,
+        "value": "GB per week",
+        "entity": "qos_unit"
+      },
+      {
+        "start": 35,
+        "end": 40,
+        "value": "Dorms",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "qos_constraint",
+        "start": 0,
+        "end": 13,
+        "confidence_entity": 0.49058282375335693,
+        "value": "Limit traffic",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "qos_value",
+        "start": 17,
+        "end": 19,
+        "confidence_entity": 0.9973548650741577,
+        "value": "10",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "qos_unit",
+        "start": 20,
+        "end": 31,
+        "confidence_entity": 0.9927623867988586,
+        "value": "GB per week",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "location",
+        "start": 35,
+        "end": 40,
+        "confidence_entity": 0.9984253644943237,
+        "value": "Dorms",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "please limit bandwidth to 5 Gigabits per second for the server racks everyday from 4 PM to 7PM",
+    "entities": [
+      {
+        "start": 7,
+        "end": 12,
+        "value": "limit",
+        "entity": "qos_constraint"
+      },
+      {
+        "start": 13,
+        "end": 22,
+        "value": "bandwidth",
+        "entity": "qos_metric"
+      },
+      {
+        "start": 26,
+        "end": 27,
+        "value": "5",
+        "entity": "qos_value"
+      },
+      {
+        "start": 28,
+        "end": 47,
+        "value": "Gigabits per second",
+        "entity": "qos_unit"
+      },
+      {
+        "start": 56,
+        "end": 68,
+        "value": "server racks",
+        "entity": "location"
+      },
+      {
+        "start": 83,
+        "end": 87,
+        "value": "4 PM",
+        "entity": "hour"
+      },
+      {
+        "start": 91,
+        "end": 94,
+        "value": "7PM",
+        "entity": "hour"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "qos_constraint",
+        "start": 7,
+        "end": 12,
+        "confidence_entity": 0.9789981245994568,
+        "value": "limit",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "qos_metric",
+        "start": 13,
+        "end": 22,
+        "confidence_entity": 0.9331294298171997,
+        "value": "bandwidth",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "qos_value",
+        "start": 26,
+        "end": 27,
+        "confidence_entity": 0.9957375526428223,
+        "value": "5",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "qos_unit",
+        "start": 28,
+        "end": 47,
+        "confidence_entity": 0.9984666109085083,
+        "value": "Gigabits per second",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "location",
+        "start": 56,
+        "end": 68,
+        "confidence_entity": 0.9433557391166687,
+        "value": "server racks",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "qos_value",
+        "start": 83,
+        "end": 87,
+        "confidence_entity": 0.9106362462043762,
+        "value": "4 PM",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "hour",
+        "start": 91,
+        "end": 94,
+        "confidence_entity": 0.9993139505386353,
+        "value": "7PM",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "block traffic of the server racks",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "block",
+        "entity": "operation"
+      },
+      {
+        "start": 6,
+        "end": 13,
+        "value": "traffic",
+        "entity": "traffic"
+      },
+      {
+        "start": 21,
+        "end": 33,
+        "value": "server racks",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "operation",
+        "start": 0,
+        "end": 13,
+        "confidence_entity": 0.6949948072433472,
+        "value": "block traffic",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "location",
+        "start": 21,
+        "end": 33,
+        "confidence_entity": 0.9950454235076904,
+        "value": "server racks",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "forward traffic for labs through the dpi",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "forward",
+        "entity": "operation"
+      },
+      {
+        "start": 8,
+        "end": 15,
+        "value": "traffic",
+        "entity": "traffic"
+      },
+      {
+        "start": 20,
+        "end": 24,
+        "value": "labs",
+        "entity": "location"
+      },
+      {
+        "start": 37,
+        "end": 40,
+        "value": "dpi",
+        "entity": "middlebox"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "operation",
+        "start": 0,
+        "end": 15,
+        "confidence_entity": 0.49761301279067993,
+        "value": "forward traffic",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "location",
+        "start": 20,
+        "end": 24,
+        "confidence_entity": 0.9987527132034302,
+        "value": "labs",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "middlebox",
+        "start": 37,
+        "end": 40,
+        "confidence_entity": 0.9992081522941589,
+        "value": "dpi",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Limit bandwidth usage to 50 mbps for professors.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "Limit",
+        "entity": "qos_constraint"
+      },
+      {
+        "start": 6,
+        "end": 15,
+        "value": "bandwidth",
+        "entity": "qos_metric"
+      },
+      {
+        "start": 25,
+        "end": 27,
+        "value": "50",
+        "entity": "qos_value"
+      },
+      {
+        "start": 28,
+        "end": 32,
+        "value": "mbps",
+        "entity": "qos_unit"
+      },
+      {
+        "start": 37,
+        "end": 47,
+        "value": "professors",
+        "entity": "group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "qos_constraint",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.9969364404678345,
+        "value": "Limit",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "qos_metric",
+        "start": 6,
+        "end": 21,
+        "confidence_entity": 0.7685484290122986,
+        "value": "bandwidth usage",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "qos_value",
+        "start": 25,
+        "end": 27,
+        "confidence_entity": 0.9964336156845093,
+        "value": "50",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "qos_unit",
+        "start": 28,
+        "end": 32,
+        "confidence_entity": 0.9997382760047913,
+        "value": "mbps",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "group",
+        "start": 37,
+        "end": 47,
+        "confidence_entity": 0.9860960841178894,
+        "value": "professors",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Add monitor for the university from 04:00 to 22:00",
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "value": "monitor",
+        "entity": "middlebox"
+      },
+      {
+        "start": 20,
+        "end": 30,
+        "value": "university",
+        "entity": "location"
+      },
+      {
+        "start": 36,
+        "end": 41,
+        "value": "04:00",
+        "entity": "hour"
+      },
+      {
+        "start": 45,
+        "end": 50,
+        "value": "22:00",
+        "entity": "hour"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "operation",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.5671575665473938,
+        "value": "Add",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "middlebox",
+        "start": 4,
+        "end": 11,
+        "confidence_entity": 0.9752598404884338,
+        "value": "monitor",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "location",
+        "start": 20,
+        "end": 30,
+        "confidence_entity": 0.9997592568397522,
+        "value": "university",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "hour",
+        "start": 36,
+        "end": 41,
+        "confidence_entity": 0.9980390667915344,
+        "value": "04:00",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "hour",
+        "start": 45,
+        "end": 50,
+        "confidence_entity": 0.9985690116882324,
+        "value": "22:00",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "We provide a quota to all students of 1 GB/wk of usage.",
+    "entities": [
+      {
+        "start": 13,
+        "end": 18,
+        "value": "quota",
+        "entity": "qos_metric"
+      },
+      {
+        "start": 26,
+        "end": 34,
+        "value": "students",
+        "entity": "group"
+      },
+      {
+        "start": 38,
+        "end": 39,
+        "value": "1",
+        "entity": "qos_value"
+      },
+      {
+        "start": 40,
+        "end": 45,
+        "value": "GB/wk",
+        "entity": "qos_unit"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "operation",
+        "start": 3,
+        "end": 10,
+        "confidence_entity": 0.9373248219490051,
+        "value": "provide",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "qos_metric",
+        "start": 13,
+        "end": 18,
+        "confidence_entity": 0.9996334314346313,
+        "value": "quota",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "group",
+        "start": 26,
+        "end": 34,
+        "confidence_entity": 0.9993608593940735,
+        "value": "students",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "qos_value",
+        "start": 38,
+        "end": 39,
+        "confidence_entity": 0.9880197644233704,
+        "value": "1",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "qos_unit",
+        "start": 40,
+        "end": 45,
+        "confidence_entity": 0.9989264607429504,
+        "value": "GB/wk",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Prioritize VoIP traffic on the meeting room 23 from 13:00 to 14:00",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "Prioritize",
+        "entity": "middlebox"
+      },
+      {
+        "start": 11,
+        "end": 15,
+        "value": "VoIP",
+        "entity": "traffic"
+      },
+      {
+        "start": 31,
+        "end": 46,
+        "value": "meeting room 23",
+        "entity": "location"
+      },
+      {
+        "start": 52,
+        "end": 57,
+        "value": "13:00",
+        "entity": "hour"
+      },
+      {
+        "start": 61,
+        "end": 66,
+        "value": "14:00",
+        "entity": "hour"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "middlebox",
+        "start": 0,
+        "end": 10,
+        "confidence_entity": 0.9993013143539429,
+        "value": "Prioritize",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "traffic",
+        "start": 11,
+        "end": 15,
+        "confidence_entity": 0.9913163185119629,
+        "value": "VoIP",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "location",
+        "start": 31,
+        "end": 43,
+        "confidence_entity": 0.9953064322471619,
+        "value": "meeting room",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "qos_value",
+        "start": 44,
+        "end": 46,
+        "confidence_entity": 0.9425204992294312,
+        "value": "23",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "hour",
+        "start": 52,
+        "end": 57,
+        "confidence_entity": 0.9985557198524475,
+        "value": "13:00",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "hour",
+        "start": 61,
+        "end": 66,
+        "confidence_entity": 0.9985095858573914,
+        "value": "14:00",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Limit in 10 Mbps the download rate of dorms from internet",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "Limit",
+        "entity": "qos_constraint"
+      },
+      {
+        "start": 9,
+        "end": 11,
+        "value": "10",
+        "entity": "qos_value"
+      },
+      {
+        "start": 12,
+        "end": 16,
+        "value": "Mbps",
+        "entity": "qos_unit"
+      },
+      {
+        "start": 21,
+        "end": 34,
+        "value": "download rate",
+        "entity": "qos_metric"
+      },
+      {
+        "start": 38,
+        "end": 43,
+        "value": "dorms",
+        "entity": "location"
+      },
+      {
+        "start": 49,
+        "end": 57,
+        "value": "internet",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "qos_constraint",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.9979758858680725,
+        "value": "Limit",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "qos_value",
+        "start": 9,
+        "end": 11,
+        "confidence_entity": 0.9979376792907715,
+        "value": "10",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "qos_unit",
+        "start": 12,
+        "end": 16,
+        "confidence_entity": 0.9986338019371033,
+        "value": "Mbps",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "qos_constraint",
+        "start": 21,
+        "end": 34,
+        "confidence_entity": 0.8412815928459167,
+        "value": "download rate",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "location",
+        "start": 38,
+        "end": 43,
+        "confidence_entity": 0.9997619986534119,
+        "value": "dorms",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "location",
+        "start": 49,
+        "end": 57,
+        "confidence_entity": 0.9996185302734375,
+        "value": "internet",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Lumi, please set to 1 GB per day the download limit for guests",
+    "entities": [
+      {
+        "start": 13,
+        "end": 16,
+        "value": "set",
+        "entity": "operation"
+      },
+      {
+        "start": 20,
+        "end": 21,
+        "value": "1",
+        "entity": "qos_value"
+      },
+      {
+        "start": 22,
+        "end": 32,
+        "value": "GB per day",
+        "entity": "qos_unit"
+      },
+      {
+        "start": 37,
+        "end": 51,
+        "value": "download limit",
+        "entity": "qos_metric"
+      },
+      {
+        "start": 56,
+        "end": 62,
+        "value": "guests",
+        "entity": "group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "operation",
+        "start": 13,
+        "end": 16,
+        "confidence_entity": 0.9957939386367798,
+        "value": "set",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "qos_value",
+        "start": 20,
+        "end": 21,
+        "confidence_entity": 0.9975154399871826,
+        "value": "1",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "qos_unit",
+        "start": 22,
+        "end": 32,
+        "confidence_entity": 0.991698145866394,
+        "value": "GB per day",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "qos_constraint",
+        "start": 37,
+        "end": 51,
+        "confidence_entity": 0.5726785659790039,
+        "value": "download limit",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "group",
+        "start": 56,
+        "end": 62,
+        "confidence_entity": 0.9982379674911499,
+        "value": "guests",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Increase the bandwidth consumption limit for professors to 100 Mbps",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "Increase",
+        "entity": "operation"
+      },
+      {
+        "start": 13,
+        "end": 40,
+        "value": "bandwidth consumption limit",
+        "entity": "qos_metric"
+      },
+      {
+        "start": 45,
+        "end": 55,
+        "value": "professors",
+        "entity": "group"
+      },
+      {
+        "start": 59,
+        "end": 62,
+        "value": "100",
+        "entity": "qos_value"
+      },
+      {
+        "start": 63,
+        "end": 67,
+        "value": "Mbps",
+        "entity": "qos_unit"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "operation",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.9995002746582031,
+        "value": "Increase",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "qos_metric",
+        "start": 13,
+        "end": 34,
+        "confidence_entity": 0.8158733248710632,
+        "value": "bandwidth consumption",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "qos_constraint",
+        "start": 35,
+        "end": 40,
+        "confidence_entity": 0.6682859659194946,
+        "value": "limit",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "group",
+        "start": 45,
+        "end": 55,
+        "confidence_entity": 0.9676766395568848,
+        "value": "professors",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "qos_value",
+        "start": 59,
+        "end": 62,
+        "confidence_entity": 0.9936287999153137,
+        "value": "100",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "qos_unit",
+        "start": 63,
+        "end": 67,
+        "confidence_entity": 0.9995273351669312,
+        "value": "Mbps",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Reduce the download rate for faculty members to 20 Mbps",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "Reduce",
+        "entity": "operation"
+      },
+      {
+        "start": 11,
+        "end": 24,
+        "value": "download rate",
+        "entity": "qos_metric"
+      },
+      {
+        "start": 29,
+        "end": 44,
+        "value": "faculty members",
+        "entity": "group"
+      },
+      {
+        "start": 48,
+        "end": 50,
+        "value": "20",
+        "entity": "qos_value"
+      },
+      {
+        "start": 51,
+        "end": 55,
+        "value": "Mbps",
+        "entity": "qos_unit"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "operation",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9973601698875427,
+        "value": "Reduce",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "qos_constraint",
+        "start": 11,
+        "end": 24,
+        "confidence_entity": 0.823439359664917,
+        "value": "download rate",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "group",
+        "start": 29,
+        "end": 44,
+        "confidence_entity": 0.8195565342903137,
+        "value": "faculty members",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "qos_value",
+        "start": 48,
+        "end": 50,
+        "confidence_entity": 0.9953095316886902,
+        "value": "20",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "qos_unit",
+        "start": 51,
+        "end": 55,
+        "confidence_entity": 0.99921715259552,
+        "value": "Mbps",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

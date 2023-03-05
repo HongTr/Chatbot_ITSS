@@ -1,91 +1,56 @@
-# #### This file contains tests to evaluate that your bot behaves as expected.
-# #### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+stories:
+- story: welcome path 1
+  steps:
+  - user: |
+      hello there!
+    intent: greet
+  - action: utter_greet
+  - user: |
+      you can call me Truong Minh Hong
+    intent: say_name
+  - action: action_greet
 
-# stories:
-# - story: happy path 1
-#   steps:
-#   - user: |
-#       hello there!
-#     intent: greet
-#   - action: utter_greet
-#   - user: |
-#       amazing
-#     intent: mood_great
-#   - action: utter_happy
+- story: welcome path 2
+  steps:
+  - user: |
+      hi
+    intent: greet
+  - action: utter_greet
+  - user: |
+      I'm Hong
+    intent: say_name
+  - action: action_greet
 
-# - story: happy path 2
-#   steps:
-#   - user: |
-#       hello there!
-#     intent: greet
-#   - action: utter_greet
-#   - user: |
-#       amazing
-#     intent: mood_great
-#   - action: utter_happy
-#   - user: |
-#       bye-bye!
-#     intent: goodbye
-#   - action: utter_goodbye
+- story: build confirm
+  steps:
+    - user: |
+        limit the bandwidth of the internet in the dorm
+      intent: build
+    - action: action_build
+    - user: |
+        sounds great
+      intent: confirm
+    - action: utter_thank
+    - action: action_restart
 
-# - story: sad path 1
-#   steps:
-#   - user: |
-#       hello
-#     intent: greet
-#   - action: utter_greet
-#   - user: |
-#       not good
-#     intent: mood_unhappy
-#   - action: utter_cheer_up
-#   - action: utter_did_that_help
-#   - user: |
-#       yes
-#     intent: affirm
-#   - action: utter_happy
-
-# - story: sad path 2
-#   steps:
-#   - user: |
-#       hello
-#     intent: greet
-#   - action: utter_greet
-#   - user: |
-#       not good
-#     intent: mood_unhappy
-#   - action: utter_cheer_up
-#   - action: utter_did_that_help
-#   - user: |
-#       not really
-#     intent: deny
-#   - action: utter_goodbye
-
-# - story: sad path 3
-#   steps:
-#   - user: |
-#       hi
-#     intent: greet
-#   - action: utter_greet
-#   - user: |
-#       very terrible
-#     intent: mood_unhappy
-#   - action: utter_cheer_up
-#   - action: utter_did_that_help
-#   - user: |
-#       no
-#     intent: deny
-#   - action: utter_goodbye
-
-# - story: say goodbye
-#   steps:
-#   - user: |
-#       bye-bye!
-#     intent: goodbye
-#   - action: utter_goodbye
-
-# - story: bot challenge
-#   steps:
-#   - user: |
-#       are you a bot?
-#     intent: bot_challenge
-#   - action: utter_iamabot
+- story: build wrong and confirm 1
+  steps:
+  - user: |
+      limit the bandwidth of the internet in the dorm down to 50Gps
+    intent: build
+  - action: action_build
+  - user: |
+      nope, you are wrong
+    intent: reject
+  - action: utter_feedback
+  - user: |
+      you've missed the internet
+    intent: inform
+  - action: action_errorExample
+  - action: utter_ask_entity
+  - intent: service
+  - action: action_trueEntity
+  - action: action_correctDictionary
+  - intent: confirm
+  - action: utter_thank
+  - action: action_restartE

@@ -1,6 +1,6 @@
 version: "3.1"
 
-stories: #training data to teach chatbot what it shoud do next
+stories:
 
 - story: welcome 
   steps:
@@ -10,7 +10,6 @@ stories: #training data to teach chatbot what it shoud do next
     - action: action_greet
     - action: utter_analysis_begin
 
-###########################################
 - story: build confirm
   steps:
     - intent: build
@@ -66,46 +65,6 @@ stories: #training data to teach chatbot what it shoud do next
   - intent: confirm
   - action: utter_start_over
   - action: action_restart
-
-
-# - story: build with feedback
-#   steps:
-#     - intent: build
-#     - action: action_build
-#     - intent: reject
-#     - action: utter_ask_for_feedback
-#     - action: command_feedback_form
-#     - active_loop: command_feedback_form
-#     - slot_was_set:
-#       - requested_slot: entity
-#     - slot_was_set:
-#       - requested_slot: value
-#     - slot_was_set:
-#       - requested_slot: null
-#     - active_loop: null
-#     # - action: action_feedback
-#     # - intent: confirm
-#     - action: utter_thank
-#     - action: action_restart
-
-# - story: build and feedback rejected
-#   steps:
-#     - intent: build
-#     - action: action_build
-#     - intent: reject
-#     # - action: utter_ask_for_feedback
-#     - active_loop: command_feedback_form
-#     - slot_was_set:
-#         - requested_slot: entity
-#     - slot_was_set:
-#         - requested_slot: value
-#     - slot_was_set:
-#         - requested_slot: null
-#     - active_loop: null
-#     # - action: action_feedback
-#     - intent: reject
-#     - action: utter_start_over
-#     - action: action_restart
 
 
 

@@ -1,0 +1,38 @@
+version: "3.1"
+stories:
+- story: welcome path 1 (./tests/test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: say_name  # predicted: say_name: you can call me [Truong](name) [Minh](name) [Hong](name)
+  - action: action_greet
+  - action: action_listen  # predicted: utter_analysis_begin
+- story: welcome path 2 (./tests/test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: say_name  # predicted: say_name: I'm [Hong](name)
+  - action: action_greet
+  - action: action_listen  # predicted: utter_analysis_begin
+- story: build confirm (./tests/test_stories.yml)
+  steps:
+  - intent: build  # predicted: build: [limit](qos_constraint) the [bandwidth](qos_metric) of the [internet](location) in the [dorm](location)
+  - action: action_build
+  - intent: confirm
+  - action: utter_thank
+  - action: action_restart
+- story: build wrong and confirm 1 (./tests/test_stories.yml)
+  steps:
+  - intent: build  # predicted: build: [limit](qos_constraint) the [bandwidth](qos_metric) of the [internet](location) in the [dorm](location) down to 50Gps
+  - action: action_build
+  - intent: reject
+  - action: utter_feedback
+  - intent: inform  # predicted: inform: you've missed the [internet](location)
+  - action: action_errorExample
+  - action: utter_ask_entity
+  - intent: service
+  - action: action_trueEntity
+  - action: action_correctDictionary
+  - intent: confirm
+  - action: utter_thank
+  - action: action_restartE  # predicted: action_restart
